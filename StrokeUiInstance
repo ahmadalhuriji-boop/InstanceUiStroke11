@@ -1,0 +1,406 @@
+
+local UIStroke_1 = Instance.new("UIStroke")
+UIStroke_1.Thickness = 2
+UIStroke_1.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_2 = Instance.new("UIStroke")
+UIStroke_2.Thickness = 2
+UIStroke_2.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_3 = Instance.new("UIStroke")
+UIStroke_3.Thickness = 2
+UIStroke_3.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_4 = Instance.new("UIStroke")
+UIStroke_4.Thickness = 2
+UIStroke_4.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_5 = Instance.new("UIStroke")
+UIStroke_5.Thickness = 2
+UIStroke_5.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_6 = Instance.new("UIStroke")
+UIStroke_6.Thickness = 2
+UIStroke_6.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_7 = Instance.new("UIStroke")
+UIStroke_7.Thickness = 2
+UIStroke_7.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_8 = Instance.new("UIStroke")
+UIStroke_8.Thickness = 2
+UIStroke_8.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_9 = Instance.new("UIStroke")
+UIStroke_9.Thickness = 2
+UIStroke_9.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_10 = Instance.new("UIStroke")
+UIStroke_10.Thickness = 2
+UIStroke_10.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_11 = Instance.new("UIStroke")
+UIStroke_11.Thickness = 2
+UIStroke_11.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_12 = Instance.new("UIStroke")
+UIStroke_12.Thickness = 2
+UIStroke_12.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_13 = Instance.new("UIStroke")
+UIStroke_13.Thickness = 2
+UIStroke_13.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_14 = Instance.new("UIStroke")
+UIStroke_14.Thickness = 2
+UIStroke_14.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_15 = Instance.new("UIStroke")
+UIStroke_15.Thickness = 2
+UIStroke_15.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_16 = Instance.new("UIStroke")
+UIStroke_16.Thickness = 2
+UIStroke_16.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_17 = Instance.new("UIStroke")
+UIStroke_17.Thickness = 2
+UIStroke_17.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_18 = Instance.new("UIStroke")
+UIStroke_18.Thickness = 2
+UIStroke_18.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_19 = Instance.new("UIStroke")
+UIStroke_19.Thickness = 2
+UIStroke_19.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_20 = Instance.new("UIStroke")
+UIStroke_20.Thickness = 2
+UIStroke_20.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_21 = Instance.new("UIStroke")
+UIStroke_21.Thickness = 2
+UIStroke_21.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_22 = Instance.new("UIStroke")
+UIStroke_22.Thickness = 2
+UIStroke_22.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_23 = Instance.new("UIStroke")
+UIStroke_23.Thickness = 2
+UIStroke_23.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_24 = Instance.new("UIStroke")
+UIStroke_24.Thickness = 2
+UIStroke_24.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_25 = Instance.new("UIStroke")
+UIStroke_25.Thickness = 2
+UIStroke_25.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_26 = Instance.new("UIStroke")
+UIStroke_26.Thickness = 2
+UIStroke_26.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_27 = Instance.new("UIStroke")
+UIStroke_27.Thickness = 2
+UIStroke_27.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_28 = Instance.new("UIStroke")
+UIStroke_28.Thickness = 2
+UIStroke_28.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_29 = Instance.new("UIStroke")
+UIStroke_29.Thickness = 2
+UIStroke_29.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_30 = Instance.new("UIStroke")
+UIStroke_30.Thickness = 2
+UIStroke_30.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_31 = Instance.new("UIStroke")
+UIStroke_31.Thickness = 2
+UIStroke_31.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_32 = Instance.new("UIStroke")
+UIStroke_32.Thickness = 2
+UIStroke_32.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_33 = Instance.new("UIStroke")
+UIStroke_33.Thickness = 2
+UIStroke_33.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_34 = Instance.new("UIStroke")
+UIStroke_34.Thickness = 2
+UIStroke_34.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_35 = Instance.new("UIStroke")
+UIStroke_35.Thickness = 2
+UIStroke_35.Color = Color3.fromRGB(0, 170, 255)
+
+
+local UIStroke_36 = Instance.new("UIStroke")
+UIStroke_36.Thickness = 2
+UIStroke_36.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_37 = Instance.new("UIStroke")
+UIStroke_37.Thickness = 2
+UIStroke_37.Color = Color3.fromRGB(0, 170, 255)
+
+
+local UIStroke_38 = Instance.new("UIStroke")
+UIStroke_38.Thickness = 2
+UIStroke_38.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_39 = Instance.new("UIStroke")
+UIStroke_39.Thickness = 2
+UIStroke_39.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_40 = Instance.new("UIStroke")
+UIStroke_40.Thickness = 2
+UIStroke_40.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_41 = Instance.new("UIStroke")
+UIStroke_41.Thickness = 2
+UIStroke_41.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_41 = Instance.new("UIStroke")
+UIStroke_41.Thickness = 2
+UIStroke_41.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_42 = Instance.new("UIStroke")
+UIStroke_42.Thickness = 2
+UIStroke_42.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_43 = Instance.new("UIStroke")
+UIStroke_43.Thickness = 2
+UIStroke_43.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_44 = Instance.new("UIStroke")
+UIStroke_44.Thickness = 2
+UIStroke_44.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_45 = Instance.new("UIStroke")
+UIStroke_45.Thickness = 2
+UIStroke_45.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_46 = Instance.new("UIStroke")
+UIStroke_46.Thickness = 2
+UIStroke_46.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_47 = Instance.new("UIStroke")
+UIStroke_47.Thickness = 2
+UIStroke_47.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_48 = Instance.new("UIStroke")
+UIStroke_48.Thickness = 2
+UIStroke_48.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_49 = Instance.new("UIStroke")
+UIStroke_49.Thickness = 2
+UIStroke_49.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_50 = Instance.new("UIStroke")
+UIStroke_50.Thickness = 2
+UIStroke_50.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_51 = Instance.new("UIStroke")
+UIStroke_51.Thickness = 2
+UIStroke_51.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_52 = Instance.new("UIStroke")
+UIStroke_52.Thickness = 2
+UIStroke_52.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_53 = Instance.new("UIStroke")
+UIStroke_53.Thickness = 2
+UIStroke_53.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_54 = Instance.new("UIStroke")
+UIStroke_54.Thickness = 2
+UIStroke_54.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_55 = Instance.new("UIStroke")
+UIStroke_55.Thickness = 2
+UIStroke_55.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_56 = Instance.new("UIStroke")
+UIStroke_56.Thickness = 2
+UIStroke_56.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_57 = Instance.new("UIStroke")
+UIStroke_57.Thickness = 2
+UIStroke_57.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_58 = Instance.new("UIStroke")
+UIStroke_58.Thickness = 2
+UIStroke_58.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_59 = Instance.new("UIStroke")
+UIStroke_59.Thickness = 2
+UIStroke_59.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_60 = Instance.new("UIStroke")
+UIStroke_60.Thickness = 2
+UIStroke_60.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_61 = Instance.new("UIStroke")
+UIStroke_61.Thickness = 2
+UIStroke_61.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_62 = Instance.new("UIStroke")
+UIStroke_62.Thickness = 2
+UIStroke_62.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_63 = Instance.new("UIStroke")
+UIStroke_63.Thickness = 2
+UIStroke_63.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_64 = Instance.new("UIStroke")
+UIStroke_64.Thickness = 2
+UIStroke_64.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_65 = Instance.new("UIStroke")
+UIStroke_65.Thickness = 2
+UIStroke_65.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_66 = Instance.new("UIStroke")
+UIStroke_66.Thickness = 2
+UIStroke_66.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_67 = Instance.new("UIStroke")
+UIStroke_67.Thickness = 2
+UIStroke_67.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_68 = Instance.new("UIStroke")
+UIStroke_68.Thickness = 2
+UIStroke_68.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_69 = Instance.new("UIStroke")
+UIStroke_69.Thickness = 2
+UIStroke_69.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_70 = Instance.new("UIStroke")
+UIStroke_70.Thickness = 2
+UIStroke_70.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_71 = Instance.new("UIStroke")
+UIStroke_71.Thickness = 2
+UIStroke_71.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_72 = Instance.new("UIStroke")
+UIStroke_72.Thickness = 2
+UIStroke_72.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_73 = Instance.new("UIStroke")
+UIStroke_73.Thickness = 2
+UIStroke_73.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_74 = Instance.new("UIStroke")
+UIStroke_74.Thickness = 2
+UIStroke_74.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_75 = Instance.new("UIStroke")
+UIStroke_75.Thickness = 2
+UIStroke_75.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_76 = Instance.new("UIStroke")
+UIStroke_76.Thickness = 2
+UIStroke_76.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_77 = Instance.new("UIStroke")
+UIStroke_77.Thickness = 2
+UIStroke_77.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_78 = Instance.new("UIStroke")
+UIStroke_78.Thickness = 2
+UIStroke_78.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_79 = Instance.new("UIStroke")
+UIStroke_79.Thickness = 2
+UIStroke_79.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_80 = Instance.new("UIStroke")
+UIStroke_80.Thickness = 2
+UIStroke_80.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_81 = Instance.new("UIStroke")
+UIStroke_81.Thickness = 2
+UIStroke_81.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_82 = Instance.new("UIStroke")
+UIStroke_82.Thickness = 2
+UIStroke_82.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_83 = Instance.new("UIStroke")
+UIStroke_83.Thickness = 2
+UIStroke_83.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_84 = Instance.new("UIStroke")
+UIStroke_84.Thickness = 2
+UIStroke_84.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_85 = Instance.new("UIStroke")
+UIStroke_85.Thickness = 2
+UIStroke_85.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_86 = Instance.new("UIStroke")
+UIStroke_86.Thickness = 2
+UIStroke_86.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_87 = Instance.new("UIStroke")
+UIStroke_87.Thickness = 2
+UIStroke_87.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_88 = Instance.new("UIStroke")
+UIStroke_88.Thickness = 2
+UIStroke_88.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_89 = Instance.new("UIStroke")
+UIStroke_89.Thickness = 2
+UIStroke_89.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_90 = Instance.new("UIStroke")
+UIStroke_90.Thickness = 2
+UIStroke_90.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_91 = Instance.new("UIStroke")
+UIStroke_91.Thickness = 2
+UIStroke_91.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_92 = Instance.new("UIStroke")
+UIStroke_92.Thickness = 2
+UIStroke_92.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_93 = Instance.new("UIStroke")
+UIStroke_93.Thickness = 2
+UIStroke_93.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_94 = Instance.new("UIStroke")
+UIStroke_94.Thickness = 2
+UIStroke_94.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_95 = Instance.new("UIStroke")
+UIStroke_95.Thickness = 2
+UIStroke_95.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_96 = Instance.new("UIStroke")
+UIStroke_96.Thickness = 2
+UIStroke_96.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_97 = Instance.new("UIStroke")
+UIStroke_97.Thickness = 2
+UIStroke_97.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_98 = Instance.new("UIStroke")
+UIStroke_98.Thickness = 2
+UIStroke_98.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_99 = Instance.new("UIStroke")
+UIStroke_99.Thickness = 2
+UIStroke_99.Color = Color3.fromRGB(0, 170, 255)
+
+local UIStroke_100 = Instance.new("UIStroke")
+UIStroke_100.Thickness = 2
+UIStroke_100.Color = Color3.fromRGB(0, 170, 255)
