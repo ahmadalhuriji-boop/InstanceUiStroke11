@@ -1,3 +1,16 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local thumbType = Enum.ThumbnailType.HeadShot
+local thumbSize = Enum.ThumbnailSize.Size100x100
+local content, isReady = Players:GetUserThumbnailAsync(player.UserId, thumbType, thumbSize)
+
+
+
+
+
+
+
+
 
 local UIStroke_1 = Instance.new("UIStroke")
 UIStroke_1.Thickness = 2
@@ -404,3 +417,2744 @@ UIStroke_99.Color = Color3.fromRGB(0, 170, 255)
 local UIStroke_100 = Instance.new("UIStroke")
 UIStroke_100.Thickness = 2
 UIStroke_100.Color = Color3.fromRGB(0, 170, 255)
+
+
+local MainScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Tab = Instance.new("Frame")
+local TrollTab = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TrollTextButton = Instance.new("TextButton")
+local HomeTab = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local HomeTextButton = Instance.new("TextButton")
+local PlayerTab = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local PlayerTextButton = Instance.new("TextButton")
+local AutoFarmTab = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local AutoFarmTextButton = Instance.new("TextButton")
+local UiName = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local PremiumTextButton = Instance.new("TextButton")
+local TeleportTab = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local TeleportTextButton = Instance.new("TextButton")
+local ESPTab = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local ESPTextButton = Instance.new("TextButton")
+local PremiumTab = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local PremiumTextButton_2 = Instance.new("TextButton")
+local HomeFrame = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local Info = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local PlayerProfile = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Discord = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local ClickToCopyDiscord = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local PlayerFrame = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local WalkSpeedFrame = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local WalkSpeedText = Instance.new("TextLabel")
+local WalkSpeedSliderFrame = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local WalkSpeedValueFrame = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local WalkSpeedValueText = Instance.new("TextLabel")
+local JumpPowerFrame = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local JumpPowerText = Instance.new("TextLabel")
+local JumpPowerValueText = Instance.new("TextLabel")
+local JumpPowerSliderFrame = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local JumpPowerValueFrame = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local NoClipFrame = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local NoClipText = Instance.new("TextLabel")
+local NoClipToggle = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local NoClipFalseToggle = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local NoClipTrueToggle = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local NoClipButton = Instance.new("ImageButton")
+local InfiniteJumpFrame = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local InfiniteJumpText = Instance.new("TextLabel")
+local InfiniteJumpToggle = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local InfiniteJumpFalseToggle = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local InfiniteJumpTrueToggle = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local InfiniteJumpButton = Instance.new("ImageButton")
+local FovFrame = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local FovText = Instance.new("TextLabel")
+local FovValueText = Instance.new("TextLabel")
+local FovSliderFrame = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
+local FovValueFrame = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local FlyFrame = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local FlyButton = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local KillAllFrame = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
+local KillAllButton = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TeleportFrame = Instance.new("Frame")
+local UICorner_33 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local ResearchFactoryFrame = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local ResearchFactoryButton = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local MilbaseFrame = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local MilbaseButton = Instance.new("TextButton")
+local KillAllButton = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local LobbyFrame = Instance.new("Frame")
+local UICorner_36 = Instance.new("UICorner")
+local LobbyButton = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local House2Frame = Instance.new("Frame")
+local UICorner_37 = Instance.new("UICorner")
+local House2Button = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local HotelFrame = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
+local HotelButton = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local GrabGun = Instance.new("Frame")
+local UICorner_39 = Instance.new("UICorner")
+local GrabGunButton = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local FactoryFrame = Instance.new("Frame")
+local UICorner_40 = Instance.new("UICorner")
+local FactoryButton = Instance.new("TextButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local OfficeFrame = Instance.new("Frame")
+local UICorner_41 = Instance.new("UICorner")
+local OfficeButton = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local WorkplaceFrame = Instance.new("Frame")
+local UICorner_42 = Instance.new("UICorner")
+local WorkPlaceButton = Instance.new("TextButton")
+local TextLabel_13 = Instance.new("TextLabel")
+local BioLabFrame = Instance.new("Frame")
+local UICorner_43 = Instance.new("UICorner")
+local BioLabButton = Instance.new("TextButton")
+local TextLabel_14 = Instance.new("TextLabel")
+local TeleportToSafePlace = Instance.new("Frame")
+local UICorner_44 = Instance.new("UICorner")
+local TeleportToSafePlaceButton = Instance.new("TextButton")
+local TextLabel_15 = Instance.new("TextLabel")
+local TrollFrame = Instance.new("Frame")
+local UICorner_45 = Instance.new("UICorner")
+local FlingMurderFrame = Instance.new("Frame")
+local UICorner_46 = Instance.new("UICorner")
+local FlingMurderButton = Instance.new("TextButton")
+local TextLabel_16 = Instance.new("TextLabel")
+local FlingSheriffFrame = Instance.new("Frame")
+local UICorner_47 = Instance.new("UICorner")
+local FlingSheriffButton = Instance.new("TextButton")
+local TextLabel_17 = Instance.new("TextLabel")
+local FlingAllFrame = Instance.new("Frame")
+local UICorner_48 = Instance.new("UICorner")
+local FlingAllButton = Instance.new("TextButton")
+local TextLabel_18 = Instance.new("TextLabel")
+local ESPFrame = Instance.new("Frame")
+local UICorner_49 = Instance.new("UICorner")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local ShowSheriffNameFrame = Instance.new("Frame")
+local UICorner_50 = Instance.new("UICorner")
+local ShowSheriffNameButton = Instance.new("TextButton")
+local TextLabel_19 = Instance.new("TextLabel")
+local ShowMurdererNameFrame = Instance.new("Frame")
+local UICorner_51 = Instance.new("UICorner")
+local ShowMurdererNameButton = Instance.new("TextButton")
+local TextLabel_20 = Instance.new("TextLabel")
+local HighlightInnocentFrame = Instance.new("Frame")
+local UICorner_52 = Instance.new("UICorner")
+local HighlightInnocentButton = Instance.new("TextButton")
+local TextLabel_21 = Instance.new("TextLabel")
+local HighlightSheriffFrame = Instance.new("Frame")
+local UICorner_53 = Instance.new("UICorner")
+local HighlightSheriffButton = Instance.new("TextButton")
+local TextLabel_22 = Instance.new("TextLabel")
+local HighlightMurdererFrame = Instance.new("Frame")
+local UICorner_54 = Instance.new("UICorner")
+local HighlightMurdererButton = Instance.new("TextButton")
+local TextLabel_23 = Instance.new("TextLabel")
+local HighlightAllFrame = Instance.new("Frame")
+local UICorner_55 = Instance.new("UICorner")
+local HighlightAllButton = Instance.new("TextButton")
+local TextLabel_24 = Instance.new("TextLabel")
+local ShowAllNameFrame = Instance.new("Frame")
+local UICorner_56 = Instance.new("UICorner")
+local ShowAllNameButton = Instance.new("TextButton")
+local TextLabel_25 = Instance.new("TextLabel")
+local ShowInnocentNameFrame = Instance.new("Frame")
+local UICorner_57 = Instance.new("UICorner")
+local ShowInnocentNameButton = Instance.new("TextButton")
+local TextLabel_26 = Instance.new("TextLabel")
+local Notifi = Instance.new("ScreenGui")
+local GunThings = Instance.new("Frame")
+local WhatHappenToTheGun = Instance.new("TextLabel")
+local UICorner_58 = Instance.new("UICorner")
+local Notifi_2 = Instance.new("Frame")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextLabel2 = Instance.new("TextLabel")
+local UICorner_59 = Instance.new("UICorner")
+
+local SafePart = Instance.new("Part")
+SafePart.Anchored = true
+SafePart.Size = Vector3.new(12, 1, 12)
+SafePart.Position = Vector3.new(-30, 11, 18)
+SafePart.Transparency = 0.6
+
+--Properties:
+
+MainScreenGui.Name = "MainScreenGui"
+MainScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MainScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+MainScreenGui.ResetOnSpawn = false
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = MainScreenGui
+MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BackgroundTransparency = 0.800
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 5
+MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+MainFrame.Size = UDim2.new(0, 650, 0, 450)
+
+UICorner.Parent = MainFrame
+
+Tab.Name = "Tab"
+Tab.Parent = MainFrame
+Tab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tab.BackgroundTransparency = 0.980
+Tab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab.BorderSizePixel = 0
+Tab.Size = UDim2.new(1, 0, 1, 0)
+
+TrollTab.Name = "TrollTab"
+TrollTab.Parent = Tab
+TrollTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TrollTab.BackgroundTransparency = 1.000
+TrollTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TrollTab.BorderSizePixel = 0
+TrollTab.Position = UDim2.new(0.524999976, 0, 0.00999999978, 0)
+TrollTab.Size = UDim2.new(0, 80, 0, 35)
+
+UICorner_2.Parent = TrollTab
+
+TrollTextButton.Name = "TrollTextButton"
+TrollTextButton.Parent = TrollTab
+TrollTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TrollTextButton.BackgroundTransparency = 1.000
+TrollTextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TrollTextButton.BorderSizePixel = 0
+TrollTextButton.Size = UDim2.new(0, 80, 0, 35)
+TrollTextButton.Font = Enum.Font.FredokaOne
+TrollTextButton.Text = "😂TROLL"
+TrollTextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TrollTextButton.TextScaled = true
+TrollTextButton.TextSize = 23.000
+TrollTextButton.TextWrapped = true
+
+HomeTab.Name = "HomeTab"
+HomeTab.Parent = Tab
+HomeTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeTab.BackgroundTransparency = 1.000
+HomeTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeTab.BorderSizePixel = 0
+HomeTab.Position = UDim2.new(0.00499999989, 0, 0.00999999978, 0)
+HomeTab.Size = UDim2.new(0, 80, 0, 35)
+
+UICorner_3.Parent = HomeTab
+
+HomeTextButton.Name = "HomeTextButton"
+HomeTextButton.Parent = HomeTab
+HomeTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeTextButton.BackgroundTransparency = 1.000
+HomeTextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeTextButton.BorderSizePixel = 0
+HomeTextButton.Size = UDim2.new(0, 80, 0, 35)
+HomeTextButton.Font = Enum.Font.FredokaOne
+HomeTextButton.Text = "🏠HOME"
+HomeTextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HomeTextButton.TextScaled = true
+HomeTextButton.TextSize = 20.000
+HomeTextButton.TextWrapped = true
+
+PlayerTab.Name = "PlayerTab"
+PlayerTab.Parent = Tab
+PlayerTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerTab.BackgroundTransparency = 1.000
+PlayerTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerTab.BorderSizePixel = 0
+PlayerTab.Position = UDim2.new(0.135000005, 0, 0.00999999978, 0)
+PlayerTab.Size = UDim2.new(0, 80, 0, 35)
+
+UICorner_4.Parent = PlayerTab
+
+PlayerTextButton.Name = "PlayerTextButton"
+PlayerTextButton.Parent = PlayerTab
+PlayerTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerTextButton.BackgroundTransparency = 1.000
+PlayerTextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerTextButton.BorderSizePixel = 0
+PlayerTextButton.Size = UDim2.new(0, 80, 0, 35)
+PlayerTextButton.Font = Enum.Font.FredokaOne
+PlayerTextButton.Text = "🧍‍PLAYER"
+PlayerTextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerTextButton.TextScaled = true
+PlayerTextButton.TextSize = 20.000
+PlayerTextButton.TextWrapped = true
+
+AutoFarmTab.Name = "AutoFarmTab"
+AutoFarmTab.Parent = Tab
+AutoFarmTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarmTab.BackgroundTransparency = 1.000
+AutoFarmTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarmTab.BorderSizePixel = 0
+AutoFarmTab.Position = UDim2.new(0.785000026, 0, 0.00999999978, 0)
+AutoFarmTab.Size = UDim2.new(0, 80, 0, 35)
+
+UICorner_5.Parent = AutoFarmTab
+
+AutoFarmTextButton.Name = "AutoFarmTextButton"
+AutoFarmTextButton.Parent = AutoFarmTab
+AutoFarmTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarmTextButton.BackgroundTransparency = 1.000
+AutoFarmTextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarmTextButton.BorderSizePixel = 0
+AutoFarmTextButton.Size = UDim2.new(0, 80, 0, 35)
+AutoFarmTextButton.Font = Enum.Font.FredokaOne
+AutoFarmTextButton.Text = "🧍‍AUTOFARM"
+AutoFarmTextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarmTextButton.TextScaled = true
+AutoFarmTextButton.TextSize = 23.000
+AutoFarmTextButton.TextWrapped = true
+
+UiName.Name = "UiName"
+UiName.Parent = Tab
+UiName.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+UiName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UiName.BorderSizePixel = 0
+UiName.Position = UDim2.new(0.917307675, 0, 0.00999999978, 0)
+UiName.Size = UDim2.new(0, 48, 0, 35)
+
+UICorner_6.Parent = UiName
+
+PremiumTextButton.Name = "PremiumTextButton"
+PremiumTextButton.Parent = UiName
+PremiumTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PremiumTextButton.BackgroundTransparency = 1.000
+PremiumTextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PremiumTextButton.BorderSizePixel = 0
+PremiumTextButton.Size = UDim2.new(0, 48, 0, 35)
+PremiumTextButton.Font = Enum.Font.FredokaOne
+PremiumTextButton.Text = "Ruthless Ui"
+PremiumTextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PremiumTextButton.TextScaled = true
+PremiumTextButton.TextSize = 23.000
+PremiumTextButton.TextWrapped = true
+
+TeleportTab.Name = "TeleportTab"
+TeleportTab.Parent = Tab
+TeleportTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeleportTab.BackgroundTransparency = 1.000
+TeleportTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeleportTab.BorderSizePixel = 0
+TeleportTab.Position = UDim2.new(0.264999986, 0, 0.00999999978, 0)
+TeleportTab.Size = UDim2.new(0, 80, 0, 35)
+
+UICorner_7.Parent = TeleportTab
+
+TeleportTextButton.Name = "TeleportTextButton"
+TeleportTextButton.Parent = TeleportTab
+TeleportTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeleportTextButton.BackgroundTransparency = 1.000
+TeleportTextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeleportTextButton.BorderSizePixel = 0
+TeleportTextButton.Size = UDim2.new(0, 80, 0, 35)
+TeleportTextButton.Font = Enum.Font.FredokaOne
+TeleportTextButton.Text = "🧍‍TELEPORT"
+TeleportTextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportTextButton.TextScaled = true
+TeleportTextButton.TextSize = 20.000
+TeleportTextButton.TextWrapped = true
+
+ESPTab.Name = "ESPTab"
+ESPTab.Parent = Tab
+ESPTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESPTab.BackgroundTransparency = 1.000
+ESPTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESPTab.BorderSizePixel = 0
+ESPTab.Position = UDim2.new(0.395000011, 0, 0.00999999978, 0)
+ESPTab.Size = UDim2.new(0, 80, 0, 35)
+
+UICorner_8.Parent = ESPTab
+
+ESPTextButton.Name = "ESPTextButton"
+ESPTextButton.Parent = ESPTab
+ESPTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESPTextButton.BackgroundTransparency = 1.000
+ESPTextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESPTextButton.BorderSizePixel = 0
+ESPTextButton.Size = UDim2.new(0, 80, 0, 35)
+ESPTextButton.Font = Enum.Font.FredokaOne
+ESPTextButton.Text = "🔴ESP"
+ESPTextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESPTextButton.TextSize = 23.000
+ESPTextButton.TextWrapped = true
+
+PremiumTab.Name = "PremiumTab"
+PremiumTab.Parent = Tab
+PremiumTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PremiumTab.BackgroundTransparency = 1.000
+PremiumTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PremiumTab.BorderSizePixel = 0
+PremiumTab.Position = UDim2.new(0.654999971, 0, 0.00999999978, 0)
+PremiumTab.Size = UDim2.new(0, 80, 0, 35)
+
+UICorner_9.Parent = PremiumTab
+
+PremiumTextButton_2.Name = "PremiumTextButton"
+PremiumTextButton_2.Parent = PremiumTab
+PremiumTextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PremiumTextButton_2.BackgroundTransparency = 1.000
+PremiumTextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PremiumTextButton_2.BorderSizePixel = 0
+PremiumTextButton_2.Size = UDim2.new(0, 80, 0, 35)
+PremiumTextButton_2.Font = Enum.Font.FredokaOne
+PremiumTextButton_2.Text = "💎PREMIUM"
+PremiumTextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PremiumTextButton_2.TextScaled = true
+PremiumTextButton_2.TextSize = 23.000
+PremiumTextButton_2.TextWrapped = true
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = MainFrame
+HomeFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HomeFrame.BackgroundTransparency = 0.700
+HomeFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeFrame.BorderSizePixel = 0
+HomeFrame.Position = UDim2.new(0.0142307691, 0, 0.107777774, 0)
+HomeFrame.Size = UDim2.new(0, 634, 0, 395)
+HomeFrame.Visible = false
+
+UICorner_10.Parent = HomeFrame
+
+Info.Name = "Info"
+Info.Parent = HomeFrame
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BackgroundTransparency = 1.000
+Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.0110410098, 0, 0.0151898731, 0)
+Info.Size = UDim2.new(0, 621, 0, 147)
+
+UICorner_11.Parent = Info
+
+PlayerProfile.Name = "PlayerProfile"
+PlayerProfile.Parent = Info
+PlayerProfile.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerProfile.BackgroundTransparency = 1.000
+PlayerProfile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerProfile.BorderSizePixel = 0
+PlayerProfile.Position = UDim2.new(0, 30, 0, 25)
+PlayerProfile.Size = UDim2.new(0, 100, 0, 100)
+PlayerProfile.Image = content
+
+TextLabel.Parent = Info
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.227053136, 0, 0.340136051, 0)
+TextLabel.Size = UDim2.new(0, 467, 0, 50)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Welcome UserName !"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 50.000
+
+Discord.Name = "Discord"
+Discord.Parent = HomeFrame
+Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord.BackgroundTransparency = 1.000
+Discord.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Discord.BorderSizePixel = 0
+Discord.Position = UDim2.new(0.0110410098, 0, 0.412658215, 0)
+Discord.Size = UDim2.new(0, 621, 0, 79)
+
+UICorner_12.Parent = Discord
+
+ClickToCopyDiscord.Name = "ClickToCopyDiscord"
+ClickToCopyDiscord.Parent = Discord
+ClickToCopyDiscord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ClickToCopyDiscord.BackgroundTransparency = 1.000
+ClickToCopyDiscord.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ClickToCopyDiscord.BorderSizePixel = 0
+ClickToCopyDiscord.Size = UDim2.new(0, 621, 0, 81)
+ClickToCopyDiscord.Font = Enum.Font.SourceSans
+ClickToCopyDiscord.Text = "Click To Copy Discord"
+ClickToCopyDiscord.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClickToCopyDiscord.TextSize = 50.000
+
+ImageLabel.Parent = HomeFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+PlayerFrame.Name = "PlayerFrame"
+PlayerFrame.Parent = MainFrame
+PlayerFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayerFrame.BackgroundTransparency = 0.700
+PlayerFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerFrame.BorderSizePixel = 0
+PlayerFrame.Position = UDim2.new(0.0142307691, 0, 0.107777774, 0)
+PlayerFrame.Size = UDim2.new(0, 634, 0, 395)
+PlayerFrame.Visible = false
+
+UICorner_13.Parent = PlayerFrame
+
+WalkSpeedFrame.Name = "WalkSpeedFrame"
+WalkSpeedFrame.Parent = PlayerFrame
+WalkSpeedFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+WalkSpeedFrame.BackgroundTransparency = 1.000
+WalkSpeedFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeedFrame.BorderSizePixel = 0
+WalkSpeedFrame.Position = UDim2.new(0.0110410098, 0, 0.0177215189, 0)
+WalkSpeedFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_14.Parent = WalkSpeedFrame
+
+WalkSpeedText.Name = "WalkSpeedText"
+WalkSpeedText.Parent = WalkSpeedFrame
+WalkSpeedText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeedText.BackgroundTransparency = 1.000
+WalkSpeedText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeedText.BorderSizePixel = 0
+WalkSpeedText.Position = UDim2.new(0.0387096778, 0, 0, 0)
+WalkSpeedText.Size = UDim2.new(0, 176, 0, 41)
+WalkSpeedText.Font = Enum.Font.SourceSansBold
+WalkSpeedText.Text = "Player WalkSpeed           :"
+WalkSpeedText.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeedText.TextSize = 25.000
+WalkSpeedText.TextXAlignment = Enum.TextXAlignment.Left
+
+WalkSpeedSliderFrame.Name = "WalkSpeedSliderFrame"
+WalkSpeedSliderFrame.Parent = WalkSpeedFrame
+WalkSpeedSliderFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+WalkSpeedSliderFrame.BackgroundTransparency = 1.000
+WalkSpeedSliderFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeedSliderFrame.BorderSizePixel = 0
+WalkSpeedSliderFrame.Position = UDim2.new(0.516935468, 0, 0.150000006, 0)
+WalkSpeedSliderFrame.Size = UDim2.new(0, 293, 0, 28)
+
+UICorner_15.Parent = WalkSpeedSliderFrame
+
+WalkSpeedValueFrame.Name = "WalkSpeedValueFrame"
+WalkSpeedValueFrame.Parent = WalkSpeedSliderFrame
+WalkSpeedValueFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeedValueFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeedValueFrame.BorderSizePixel = 0
+WalkSpeedValueFrame.Size = UDim2.new(0, 293, 0, 28)
+
+UICorner_16.Parent = WalkSpeedValueFrame
+
+WalkSpeedValueText.Name = "WalkSpeedValueText"
+WalkSpeedValueText.Parent = WalkSpeedFrame
+WalkSpeedValueText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeedValueText.BackgroundTransparency = 1.000
+WalkSpeedValueText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeedValueText.BorderSizePixel = 0
+WalkSpeedValueText.Position = UDim2.new(0.462903231, 0, -0.0250000004, 0)
+WalkSpeedValueText.Size = UDim2.new(0, 25, 0, 41)
+WalkSpeedValueText.Font = Enum.Font.SourceSansBold
+WalkSpeedValueText.Text = "16"
+WalkSpeedValueText.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeedValueText.TextSize = 25.000
+WalkSpeedValueText.TextXAlignment = Enum.TextXAlignment.Left
+
+JumpPowerFrame.Name = "JumpPowerFrame"
+JumpPowerFrame.Parent = PlayerFrame
+JumpPowerFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+JumpPowerFrame.BackgroundTransparency = 1.000
+JumpPowerFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPowerFrame.BorderSizePixel = 0
+JumpPowerFrame.Position = UDim2.new(0.0109999999, 0, 0.148000002, 0)
+JumpPowerFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_17.Parent = JumpPowerFrame
+
+JumpPowerText.Name = "JumpPowerText"
+JumpPowerText.Parent = JumpPowerFrame
+JumpPowerText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpPowerText.BackgroundTransparency = 1.000
+JumpPowerText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPowerText.BorderSizePixel = 0
+JumpPowerText.Position = UDim2.new(0.0387096778, 0, 0, 0)
+JumpPowerText.Size = UDim2.new(0, 176, 0, 41)
+JumpPowerText.Font = Enum.Font.SourceSansBold
+JumpPowerText.Text = "Player JumpPower        :"
+JumpPowerText.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPowerText.TextSize = 25.000
+JumpPowerText.TextXAlignment = Enum.TextXAlignment.Left
+
+JumpPowerValueText.Name = "JumpPowerValueText"
+JumpPowerValueText.Parent = JumpPowerFrame
+JumpPowerValueText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpPowerValueText.BackgroundTransparency = 1.000
+JumpPowerValueText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPowerValueText.BorderSizePixel = 0
+JumpPowerValueText.Position = UDim2.new(0.462903231, 0, -0.0250000004, 0)
+JumpPowerValueText.Size = UDim2.new(0, 25, 0, 41)
+JumpPowerValueText.Font = Enum.Font.SourceSansBold
+JumpPowerValueText.Text = "16"
+JumpPowerValueText.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPowerValueText.TextSize = 25.000
+JumpPowerValueText.TextXAlignment = Enum.TextXAlignment.Left
+
+JumpPowerSliderFrame.Name = "JumpPowerSliderFrame"
+JumpPowerSliderFrame.Parent = JumpPowerFrame
+JumpPowerSliderFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+JumpPowerSliderFrame.BackgroundTransparency = 1.000
+JumpPowerSliderFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPowerSliderFrame.BorderSizePixel = 0
+JumpPowerSliderFrame.Position = UDim2.new(0.516935468, 0, 0.150000006, 0)
+JumpPowerSliderFrame.Size = UDim2.new(0, 293, 0, 28)
+
+UICorner_18.Parent = JumpPowerSliderFrame
+
+JumpPowerValueFrame.Name = "JumpPowerValueFrame"
+JumpPowerValueFrame.Parent = JumpPowerSliderFrame
+JumpPowerValueFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+JumpPowerValueFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPowerValueFrame.BorderSizePixel = 0
+JumpPowerValueFrame.Size = UDim2.new(0, 293, 0, 28)
+
+UICorner_19.Parent = JumpPowerValueFrame
+
+NoClipFrame.Name = "NoClipFrame"
+NoClipFrame.Parent = PlayerFrame
+NoClipFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+NoClipFrame.BackgroundTransparency = 1.000
+NoClipFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NoClipFrame.BorderSizePixel = 0
+NoClipFrame.Position = UDim2.new(0.0109999999, 0, 0.527999997, 0)
+NoClipFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_20.Parent = NoClipFrame
+
+NoClipText.Name = "NoClipText"
+NoClipText.Parent = NoClipFrame
+NoClipText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NoClipText.BackgroundTransparency = 1.000
+NoClipText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NoClipText.BorderSizePixel = 0
+NoClipText.Position = UDim2.new(0.0387096778, 0, 0, 0)
+NoClipText.Size = UDim2.new(0, 176, 0, 41)
+NoClipText.Font = Enum.Font.SourceSansBold
+NoClipText.Text = "NoClip"
+NoClipText.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoClipText.TextSize = 25.000
+NoClipText.TextXAlignment = Enum.TextXAlignment.Left
+
+NoClipToggle.Name = "NoClipToggle"
+NoClipToggle.Parent = NoClipFrame
+NoClipToggle.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+NoClipToggle.BackgroundTransparency = 1.000
+NoClipToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NoClipToggle.BorderSizePixel = 0
+NoClipToggle.Position = UDim2.new(0.778267741, 0, 0.150000006, 0)
+NoClipToggle.Size = UDim2.new(0, 130, 0, 28)
+
+UICorner_21.Parent = NoClipToggle
+
+NoClipFalseToggle.Name = "NoClipFalseToggle"
+NoClipFalseToggle.Parent = NoClipToggle
+NoClipFalseToggle.BackgroundColor3 = Color3.fromRGB(118, 0, 0)
+NoClipFalseToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NoClipFalseToggle.BorderSizePixel = 0
+NoClipFalseToggle.Position = UDim2.new(0.0538461544, 0, 0.142857149, 0)
+NoClipFalseToggle.Size = UDim2.new(0, 58, 0, 20)
+
+UICorner_22.Parent = NoClipFalseToggle
+
+NoClipTrueToggle.Name = "NoClipTrueToggle"
+NoClipTrueToggle.Parent = NoClipToggle
+NoClipTrueToggle.BackgroundColor3 = Color3.fromRGB(12, 118, 0)
+NoClipTrueToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NoClipTrueToggle.BorderSizePixel = 0
+NoClipTrueToggle.Position = UDim2.new(0.5, 0, 0.142857149, 0)
+NoClipTrueToggle.Size = UDim2.new(0, 58, 0, 20)
+NoClipTrueToggle.Visible = false
+
+UICorner_23.Parent = NoClipTrueToggle
+
+NoClipButton.Name = "NoClipButton"
+NoClipButton.Parent = NoClipToggle
+NoClipButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NoClipButton.BackgroundTransparency = 1.000
+NoClipButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NoClipButton.BorderSizePixel = 0
+NoClipButton.Size = UDim2.new(1, 0, 1, 0)
+NoClipButton.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+NoClipButton.ImageTransparency = 1.000
+
+InfiniteJumpFrame.Name = "InfiniteJumpFrame"
+InfiniteJumpFrame.Parent = PlayerFrame
+InfiniteJumpFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+InfiniteJumpFrame.BackgroundTransparency = 1.000
+InfiniteJumpFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteJumpFrame.BorderSizePixel = 0
+InfiniteJumpFrame.Position = UDim2.new(0.0109999999, 0, 0.407999992, 0)
+InfiniteJumpFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_24.Parent = InfiniteJumpFrame
+
+InfiniteJumpText.Name = "InfiniteJumpText"
+InfiniteJumpText.Parent = InfiniteJumpFrame
+InfiniteJumpText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteJumpText.BackgroundTransparency = 1.000
+InfiniteJumpText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteJumpText.BorderSizePixel = 0
+InfiniteJumpText.Position = UDim2.new(0.0387096778, 0, 0, 0)
+InfiniteJumpText.Size = UDim2.new(0, 176, 0, 41)
+InfiniteJumpText.Font = Enum.Font.SourceSansBold
+InfiniteJumpText.Text = "Infinite Jump"
+InfiniteJumpText.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteJumpText.TextSize = 25.000
+InfiniteJumpText.TextXAlignment = Enum.TextXAlignment.Left
+
+InfiniteJumpToggle.Name = "InfiniteJumpToggle"
+InfiniteJumpToggle.Parent = InfiniteJumpFrame
+InfiniteJumpToggle.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+InfiniteJumpToggle.BackgroundTransparency = 1.000
+InfiniteJumpToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteJumpToggle.BorderSizePixel = 0
+InfiniteJumpToggle.Position = UDim2.new(0.778267741, 0, 0.150000006, 0)
+InfiniteJumpToggle.Size = UDim2.new(0, 130, 0, 28)
+
+UICorner_25.Parent = InfiniteJumpToggle
+
+InfiniteJumpFalseToggle.Name = "InfiniteJumpFalseToggle"
+InfiniteJumpFalseToggle.Parent = InfiniteJumpToggle
+InfiniteJumpFalseToggle.BackgroundColor3 = Color3.fromRGB(118, 0, 0)
+InfiniteJumpFalseToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteJumpFalseToggle.BorderSizePixel = 0
+InfiniteJumpFalseToggle.Position = UDim2.new(0.0538461544, 0, 0.142857149, 0)
+InfiniteJumpFalseToggle.Size = UDim2.new(0, 58, 0, 20)
+
+UICorner_26.Parent = InfiniteJumpFalseToggle
+
+InfiniteJumpTrueToggle.Name = "InfiniteJumpTrueToggle"
+InfiniteJumpTrueToggle.Parent = InfiniteJumpToggle
+InfiniteJumpTrueToggle.BackgroundColor3 = Color3.fromRGB(12, 118, 0)
+InfiniteJumpTrueToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteJumpTrueToggle.BorderSizePixel = 0
+InfiniteJumpTrueToggle.Position = UDim2.new(0.5, 0, 0.142857149, 0)
+InfiniteJumpTrueToggle.Size = UDim2.new(0, 58, 0, 20)
+InfiniteJumpTrueToggle.Visible = false
+
+UICorner_27.Parent = InfiniteJumpTrueToggle
+
+InfiniteJumpButton.Name = "InfiniteJumpButton"
+InfiniteJumpButton.Parent = InfiniteJumpToggle
+InfiniteJumpButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteJumpButton.BackgroundTransparency = 1.000
+InfiniteJumpButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteJumpButton.BorderSizePixel = 0
+InfiniteJumpButton.Size = UDim2.new(1, 0, 1, 0)
+InfiniteJumpButton.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+InfiniteJumpButton.ImageTransparency = 1.000
+
+FovFrame.Name = "FovFrame"
+FovFrame.Parent = PlayerFrame
+FovFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+FovFrame.BackgroundTransparency = 1.000
+FovFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovFrame.BorderSizePixel = 0
+FovFrame.Position = UDim2.new(0.0109999999, 0, 0.277999997, 0)
+FovFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_28.Parent = FovFrame
+
+FovText.Name = "FovText"
+FovText.Parent = FovFrame
+FovText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FovText.BackgroundTransparency = 1.000
+FovText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovText.BorderSizePixel = 0
+FovText.Position = UDim2.new(0.0387096778, 0, 0, 0)
+FovText.Size = UDim2.new(0, 176, 0, 41)
+FovText.Font = Enum.Font.SourceSansBold
+FovText.Text = "Player Fov        :"
+FovText.TextColor3 = Color3.fromRGB(255, 255, 255)
+FovText.TextSize = 25.000
+FovText.TextXAlignment = Enum.TextXAlignment.Left
+
+FovValueText.Name = "FovValueText"
+FovValueText.Parent = FovFrame
+FovValueText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FovValueText.BackgroundTransparency = 1.000
+FovValueText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovValueText.BorderSizePixel = 0
+FovValueText.Position = UDim2.new(0.462903231, 0, -0.0250000004, 0)
+FovValueText.Size = UDim2.new(0, 25, 0, 41)
+FovValueText.Font = Enum.Font.SourceSansBold
+FovValueText.Text = "16"
+FovValueText.TextColor3 = Color3.fromRGB(255, 255, 255)
+FovValueText.TextSize = 25.000
+FovValueText.TextXAlignment = Enum.TextXAlignment.Left
+
+FovSliderFrame.Name = "FovSliderFrame"
+FovSliderFrame.Parent = FovFrame
+FovSliderFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+FovSliderFrame.BackgroundTransparency = 1.000
+FovSliderFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovSliderFrame.BorderSizePixel = 0
+FovSliderFrame.Position = UDim2.new(0.516935468, 0, 0.150000006, 0)
+FovSliderFrame.Size = UDim2.new(0, 293, 0, 28)
+
+UICorner_29.Parent = FovSliderFrame
+
+FovValueFrame.Name = "FovValueFrame"
+FovValueFrame.Parent = FovSliderFrame
+FovValueFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FovValueFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovValueFrame.BorderSizePixel = 0
+FovValueFrame.Size = UDim2.new(0, 293, 0, 28)
+
+UICorner_30.Parent = FovValueFrame
+
+FlyFrame.Name = "FlyFrame"
+FlyFrame.Parent = PlayerFrame
+FlyFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+FlyFrame.BackgroundTransparency = 1.000
+FlyFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlyFrame.BorderSizePixel = 0
+FlyFrame.Position = UDim2.new(0.0109999999, 0, 0.649999976, 0)
+FlyFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_31.Parent = FlyFrame
+
+FlyButton.Name = "FlyButton"
+FlyButton.Parent = FlyFrame
+FlyButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlyButton.BackgroundTransparency = 1.000
+FlyButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlyButton.BorderSizePixel = 0
+FlyButton.Position = UDim2.new(0.0145161292, 0, 0, 0)
+FlyButton.Size = UDim2.new(0.97096777, 0, 1, 0)
+FlyButton.Font = Enum.Font.SourceSansBold
+FlyButton.Text = "Fly"
+FlyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlyButton.TextSize = 25.000
+FlyButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_2.Parent = FlyFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "E / click"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 20.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextTransparency = 0.500
+
+KillAllFrame.Name = "KillAllFrame"
+KillAllFrame.Parent = PlayerFrame
+KillAllFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+KillAllFrame.BackgroundTransparency = 1.000
+KillAllFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KillAllFrame.BorderSizePixel = 0
+KillAllFrame.Position = UDim2.new(0.0109999999, 0, 0.769999981, 0)
+KillAllFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_32.Parent = KillAllFrame
+
+KillAllButton.Name = "KillAllButton"
+KillAllButton.Parent = KillAllFrame
+KillAllButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KillAllButton.BackgroundTransparency = 1.000
+KillAllButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KillAllButton.BorderSizePixel = 0
+KillAllButton.Position = UDim2.new(0.0145338979, 0, 0, 0)
+KillAllButton.Size = UDim2.new(0.970949948, 0, 1, 0)
+KillAllButton.Font = Enum.Font.SourceSansBold
+KillAllButton.Text = "Kill All "
+KillAllButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillAllButton.TextSize = 25.000
+KillAllButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_3.Parent = KillAllFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "E / click"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextTransparency = 0.500
+
+TextLabel_4.Parent = KillAllFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.134719357, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 81, 0, 41)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Murderer  Only"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextTransparency = 0.500
+
+TeleportFrame.Name = "TeleportFrame"
+TeleportFrame.Parent = MainFrame
+TeleportFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TeleportFrame.BackgroundTransparency = 0.700
+TeleportFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeleportFrame.BorderSizePixel = 0
+TeleportFrame.Position = UDim2.new(0.0142307691, 0, 0.107777774, 0)
+TeleportFrame.Size = UDim2.new(0, 634, 0, 395)
+
+UICorner_33.Parent = TeleportFrame
+
+ScrollingFrame.Parent = TeleportFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Size = UDim2.new(0, 634, 0, 395)
+ScrollingFrame.BottomImage = ""
+ScrollingFrame.ScrollBarThickness = 1
+
+ResearchFactoryFrame.Name = "ResearchFactoryFrame"
+ResearchFactoryFrame.Parent = ScrollingFrame
+ResearchFactoryFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+ResearchFactoryFrame.BackgroundTransparency = 1.000
+ResearchFactoryFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ResearchFactoryFrame.BorderSizePixel = 0
+ResearchFactoryFrame.Position = UDim2.new(0.0109999999, 0, 0.275000006, 0)
+ResearchFactoryFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_34.Parent = ResearchFactoryFrame
+
+ResearchFactoryButton.Name = "ResearchFactoryButton"
+ResearchFactoryButton.Parent = ResearchFactoryFrame
+ResearchFactoryButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ResearchFactoryButton.BackgroundTransparency = 1.000
+ResearchFactoryButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ResearchFactoryButton.BorderSizePixel = 0
+ResearchFactoryButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+ResearchFactoryButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+ResearchFactoryButton.Font = Enum.Font.SourceSansBold
+ResearchFactoryButton.Text = "Teleport To ResearchFactory                                     "
+ResearchFactoryButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ResearchFactoryButton.TextSize = 25.000
+ResearchFactoryButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_5.Parent = ResearchFactoryFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "click"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 20.000
+TextLabel_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextTransparency = 0.500
+
+MilbaseFrame.Name = "MilbaseFrame"
+MilbaseFrame.Parent = ScrollingFrame
+MilbaseFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+MilbaseFrame.BackgroundTransparency = 1.000
+MilbaseFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MilbaseFrame.BorderSizePixel = 0
+MilbaseFrame.Position = UDim2.new(0.0109999999, 0, 0.340000004, 0)
+MilbaseFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_35.Parent = MilbaseFrame
+
+MilbaseButton.Name = "MilbaseButton"
+MilbaseButton.Parent = MilbaseFrame
+MilbaseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MilbaseButton.BackgroundTransparency = 1.000
+MilbaseButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MilbaseButton.BorderSizePixel = 0
+MilbaseButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+MilbaseButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+MilbaseButton.Font = Enum.Font.SourceSansBold
+MilbaseButton.Text = "Teleport To MilBase                                     "
+MilbaseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+MilbaseButton.TextSize = 25.000
+MilbaseButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_6.Parent = MilbaseFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "click"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 20.000
+TextLabel_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextTransparency = 0.500
+
+LobbyFrame.Name = "LobbyFrame"
+LobbyFrame.Parent = ScrollingFrame
+LobbyFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+LobbyFrame.BackgroundTransparency = 1.000
+LobbyFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LobbyFrame.BorderSizePixel = 0
+LobbyFrame.Position = UDim2.new(0.0110410098, 0, 0.0177215189, 0)
+LobbyFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_36.Parent = LobbyFrame
+
+LobbyButton.Name = "LobbyButton"
+LobbyButton.Parent = LobbyFrame
+LobbyButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LobbyButton.BackgroundTransparency = 1.000
+LobbyButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LobbyButton.BorderSizePixel = 0
+LobbyButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+LobbyButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+LobbyButton.Font = Enum.Font.SourceSansBold
+LobbyButton.Text = "Teleport To Lobby                                      "
+LobbyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+LobbyButton.TextSize = 25.000
+LobbyButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_7.Parent = LobbyFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "click"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 20.000
+TextLabel_7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextTransparency = 0.500
+
+House2Frame.Name = "House2Frame"
+House2Frame.Parent = ScrollingFrame
+House2Frame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+House2Frame.BackgroundTransparency = 1.000
+House2Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+House2Frame.BorderSizePixel = 0
+House2Frame.Position = UDim2.new(0.0109999999, 0, 0.0799999982, 0)
+House2Frame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_37.Parent = House2Frame
+
+House2Button.Name = "House2Button"
+House2Button.Parent = House2Frame
+House2Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+House2Button.BackgroundTransparency = 1.000
+House2Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+House2Button.BorderSizePixel = 0
+House2Button.Position = UDim2.new(0.0177419353, 0, 0, 0)
+House2Button.Size = UDim2.new(0.967741907, 0, 1, 0)
+House2Button.Font = Enum.Font.SourceSansBold
+House2Button.Text = "Teleport To House2                                     "
+House2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+House2Button.TextSize = 25.000
+House2Button.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_8.Parent = House2Frame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "click"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 20.000
+TextLabel_8.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextTransparency = 0.500
+
+HotelFrame.Name = "HotelFrame"
+HotelFrame.Parent = ScrollingFrame
+HotelFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+HotelFrame.BackgroundTransparency = 1.000
+HotelFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HotelFrame.BorderSizePixel = 0
+HotelFrame.Position = UDim2.new(0.0109999999, 0, 0.144999996, 0)
+HotelFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_38.Parent = HotelFrame
+
+HotelButton.Name = "HotelButton"
+HotelButton.Parent = HotelFrame
+HotelButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HotelButton.BackgroundTransparency = 1.000
+HotelButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HotelButton.BorderSizePixel = 0
+HotelButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+HotelButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+HotelButton.Font = Enum.Font.SourceSansBold
+HotelButton.Text = "Teleport To Hotel                                     "
+HotelButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HotelButton.TextSize = 25.000
+HotelButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_9.Parent = HotelFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "click"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 20.000
+TextLabel_9.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextTransparency = 0.500
+
+GrabGun.Name = "GrabGun"
+GrabGun.Parent = ScrollingFrame
+GrabGun.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+GrabGun.BackgroundTransparency = 1.000
+GrabGun.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GrabGun.BorderSizePixel = 0
+GrabGun.Position = UDim2.new(0.0109999999, 0, 0.620000005, 0)
+GrabGun.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_39.Parent = GrabGun
+
+GrabGunButton.Name = "GrabGunButton"
+GrabGunButton.Parent = GrabGun
+GrabGunButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GrabGunButton.BackgroundTransparency = 1.000
+GrabGunButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GrabGunButton.BorderSizePixel = 0
+GrabGunButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+GrabGunButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+GrabGunButton.Font = Enum.Font.SourceSansBold
+GrabGunButton.Text = "Grab the Gun"
+GrabGunButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GrabGunButton.TextSize = 25.000
+GrabGunButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_10.Parent = GrabGun
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "click"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 20.000
+TextLabel_10.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextTransparency = 0.500
+
+FactoryFrame.Name = "FactoryFrame"
+FactoryFrame.Parent = ScrollingFrame
+FactoryFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+FactoryFrame.BackgroundTransparency = 1.000
+FactoryFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FactoryFrame.BorderSizePixel = 0
+FactoryFrame.Position = UDim2.new(0.0109999999, 0, 0.209999993, 0)
+FactoryFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_40.Parent = FactoryFrame
+
+FactoryButton.Name = "FactoryButton"
+FactoryButton.Parent = FactoryFrame
+FactoryButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FactoryButton.BackgroundTransparency = 1.000
+FactoryButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FactoryButton.BorderSizePixel = 0
+FactoryButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+FactoryButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+FactoryButton.Font = Enum.Font.SourceSansBold
+FactoryButton.Text = "Teleport To Factory                                     "
+FactoryButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FactoryButton.TextSize = 25.000
+FactoryButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_11.Parent = FactoryFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "click"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 20.000
+TextLabel_11.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextTransparency = 0.500
+
+OfficeFrame.Name = "OfficeFrame"
+OfficeFrame.Parent = ScrollingFrame
+OfficeFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+OfficeFrame.BackgroundTransparency = 1.000
+OfficeFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OfficeFrame.BorderSizePixel = 0
+OfficeFrame.Position = UDim2.new(0.0109999999, 0, 0.409999996, 0)
+OfficeFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_41.Parent = OfficeFrame
+
+OfficeButton.Name = "OfficeButton"
+OfficeButton.Parent = OfficeFrame
+OfficeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OfficeButton.BackgroundTransparency = 1.000
+OfficeButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OfficeButton.BorderSizePixel = 0
+OfficeButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+OfficeButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+OfficeButton.Font = Enum.Font.SourceSansBold
+OfficeButton.Text = "Teleport To Office                                     "
+OfficeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OfficeButton.TextSize = 25.000
+OfficeButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_12.Parent = OfficeFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_12.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "click"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 20.000
+TextLabel_12.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextTransparency = 0.500
+
+WorkplaceFrame.Name = "WorkplaceFrame"
+WorkplaceFrame.Parent = ScrollingFrame
+WorkplaceFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+WorkplaceFrame.BackgroundTransparency = 1.000
+WorkplaceFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WorkplaceFrame.BorderSizePixel = 0
+WorkplaceFrame.Position = UDim2.new(0.0109999999, 0, 0.479999989, 0)
+WorkplaceFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_42.Parent = WorkplaceFrame
+
+WorkPlaceButton.Name = "WorkPlaceButton"
+WorkPlaceButton.Parent = WorkplaceFrame
+WorkPlaceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WorkPlaceButton.BackgroundTransparency = 1.000
+WorkPlaceButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WorkPlaceButton.BorderSizePixel = 0
+WorkPlaceButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+WorkPlaceButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+WorkPlaceButton.Font = Enum.Font.SourceSansBold
+WorkPlaceButton.Text = "Teleport To WorkPlace                                     "
+WorkPlaceButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+WorkPlaceButton.TextSize = 25.000
+WorkPlaceButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_13.Parent = WorkplaceFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_13.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "click"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 20.000
+TextLabel_13.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextTransparency = 0.500
+
+BioLabFrame.Name = "BioLabFrame"
+BioLabFrame.Parent = ScrollingFrame
+BioLabFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+BioLabFrame.BackgroundTransparency = 1.000
+BioLabFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BioLabFrame.BorderSizePixel = 0
+BioLabFrame.Position = UDim2.new(0.0109999999, 0, 0.550000012, 0)
+BioLabFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_43.Parent = BioLabFrame
+
+BioLabButton.Name = "BioLabButton"
+BioLabButton.Parent = BioLabFrame
+BioLabButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BioLabButton.BackgroundTransparency = 1.000
+BioLabButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BioLabButton.BorderSizePixel = 0
+BioLabButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+BioLabButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+BioLabButton.Font = Enum.Font.SourceSansBold
+BioLabButton.Text = "Teleport To BioLab                                     "
+BioLabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+BioLabButton.TextSize = 25.000
+BioLabButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_14.Parent = BioLabFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_14.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "click"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 20.000
+TextLabel_14.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextTransparency = 0.500
+
+TeleportToSafePlace.Name = "TeleportToSafe Place"
+TeleportToSafePlace.Parent = ScrollingFrame
+TeleportToSafePlace.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TeleportToSafePlace.BackgroundTransparency = 1.000
+TeleportToSafePlace.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeleportToSafePlace.BorderSizePixel = 0
+TeleportToSafePlace.Position = UDim2.new(0.0109999999, 0, 0.689999998, 0)
+TeleportToSafePlace.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_44.Parent = TeleportToSafePlace
+
+TeleportToSafePlaceButton.Name = "TeleportToSafePlaceButton"
+TeleportToSafePlaceButton.Parent = TeleportToSafePlace
+TeleportToSafePlaceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeleportToSafePlaceButton.BackgroundTransparency = 1.000
+TeleportToSafePlaceButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeleportToSafePlaceButton.BorderSizePixel = 0
+TeleportToSafePlaceButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+TeleportToSafePlaceButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+TeleportToSafePlaceButton.Font = Enum.Font.SourceSansBold
+TeleportToSafePlaceButton.Text = "Teleport To Safe Place"
+TeleportToSafePlaceButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportToSafePlaceButton.TextSize = 25.000
+TeleportToSafePlaceButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_15.Parent = TeleportToSafePlace
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_15.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = "click"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 20.000
+TextLabel_15.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextTransparency = 0.500
+
+TrollFrame.Name = "TrollFrame"
+TrollFrame.Parent = MainFrame
+TrollFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TrollFrame.BackgroundTransparency = 0.700
+TrollFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TrollFrame.BorderSizePixel = 0
+TrollFrame.Position = UDim2.new(0.0142307691, 0, 0.107777774, 0)
+TrollFrame.Size = UDim2.new(0, 634, 0, 395)
+TrollFrame.Visible = false
+
+UICorner_45.Parent = TrollFrame
+
+FlingMurderFrame.Name = "FlingMurderFrame"
+FlingMurderFrame.Parent = TrollFrame
+FlingMurderFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+FlingMurderFrame.BackgroundTransparency = 1.000
+FlingMurderFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlingMurderFrame.BorderSizePixel = 0
+FlingMurderFrame.Position = UDim2.new(0.0110410098, 0, 0.0177215189, 0)
+FlingMurderFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_46.Parent = FlingMurderFrame
+
+FlingMurderButton.Name = "FlingMurderButton"
+FlingMurderButton.Parent = FlingMurderFrame
+FlingMurderButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FlingMurderButton.BackgroundTransparency = 1.000
+FlingMurderButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlingMurderButton.BorderSizePixel = 0
+FlingMurderButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+FlingMurderButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+FlingMurderButton.Font = Enum.Font.SourceSansBold
+FlingMurderButton.Text = "Fling the murder"
+FlingMurderButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+FlingMurderButton.TextSize = 25.000
+FlingMurderButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_16.Parent = FlingMurderFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_16.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "click"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 20.000
+TextLabel_16.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextTransparency = 0.500
+
+FlingSheriffFrame.Name = "FlingSheriffFrame"
+FlingSheriffFrame.Parent = TrollFrame
+FlingSheriffFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+FlingSheriffFrame.BackgroundTransparency = 1.000
+FlingSheriffFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlingSheriffFrame.BorderSizePixel = 0
+FlingSheriffFrame.Position = UDim2.new(0.0109999999, 0, 0.148000002, 0)
+FlingSheriffFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_47.Parent = FlingSheriffFrame
+
+FlingSheriffButton.Name = "FlingSheriffButton"
+FlingSheriffButton.Parent = FlingSheriffFrame
+FlingSheriffButton.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+FlingSheriffButton.BackgroundTransparency = 1.000
+FlingSheriffButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlingSheriffButton.BorderSizePixel = 0
+FlingSheriffButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+FlingSheriffButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+FlingSheriffButton.Font = Enum.Font.SourceSansBold
+FlingSheriffButton.Text = "Fling the Sheriff"
+FlingSheriffButton.TextColor3 = Color3.fromRGB(38, 0, 255)
+FlingSheriffButton.TextSize = 25.000
+FlingSheriffButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_17.Parent = FlingSheriffFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_17.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "click"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 20.000
+TextLabel_17.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextTransparency = 0.500
+
+FlingAllFrame.Name = "FlingAllFrame"
+FlingAllFrame.Parent = TrollFrame
+FlingAllFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+FlingAllFrame.BackgroundTransparency = 1.000
+FlingAllFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlingAllFrame.BorderSizePixel = 0
+FlingAllFrame.Position = UDim2.new(0.0109999999, 0, 0.277999997, 0)
+FlingAllFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_48.Parent = FlingAllFrame
+
+FlingAllButton.Name = "FlingAllButton"
+FlingAllButton.Parent = FlingAllFrame
+FlingAllButton.BackgroundColor3 = Color3.fromRGB(0, 255, 17)
+FlingAllButton.BackgroundTransparency = 1.000
+FlingAllButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlingAllButton.BorderSizePixel = 0
+FlingAllButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+FlingAllButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+FlingAllButton.Font = Enum.Font.SourceSansBold
+FlingAllButton.Text = "Fling the All"
+FlingAllButton.TextColor3 = Color3.fromRGB(0, 255, 17)
+FlingAllButton.TextSize = 25.000
+FlingAllButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_18.Parent = FlingAllFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_18.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = "click"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 20.000
+TextLabel_18.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextTransparency = 0.500
+
+ESPFrame.Name = "ESPFrame"
+ESPFrame.Parent = MainFrame
+ESPFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ESPFrame.BackgroundTransparency = 0.700
+ESPFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESPFrame.BorderSizePixel = 0
+ESPFrame.Position = UDim2.new(0.0142307691, 0, 0.107777774, 0)
+ESPFrame.Size = UDim2.new(0, 634, 0, 395)
+ESPFrame.Visible = false
+
+UICorner_49.Parent = ESPFrame
+
+ScrollingFrame_2.Parent = ESPFrame
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Size = UDim2.new(0, 635, 0, 395)
+ScrollingFrame_2.CanvasSize = UDim2.new(0, 0, 1.10000002, 0)
+ScrollingFrame_2.ScrollBarThickness = 1
+
+ShowSheriffNameFrame.Name = "ShowSheriffNameFrame"
+ShowSheriffNameFrame.Parent = ScrollingFrame_2
+ShowSheriffNameFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+ShowSheriffNameFrame.BackgroundTransparency = 1.000
+ShowSheriffNameFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShowSheriffNameFrame.BorderSizePixel = 0
+ShowSheriffNameFrame.Position = UDim2.new(0.0109999999, 0, 0.774999976, 0)
+ShowSheriffNameFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_50.Parent = ShowSheriffNameFrame
+
+ShowSheriffNameButton.Name = "ShowSheriffNameButton"
+ShowSheriffNameButton.Parent = ShowSheriffNameFrame
+ShowSheriffNameButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShowSheriffNameButton.BackgroundTransparency = 1.000
+ShowSheriffNameButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShowSheriffNameButton.BorderSizePixel = 0
+ShowSheriffNameButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+ShowSheriffNameButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+ShowSheriffNameButton.Font = Enum.Font.SourceSansBold
+ShowSheriffNameButton.Text = "Show Sheriff Name"
+ShowSheriffNameButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShowSheriffNameButton.TextSize = 25.000
+ShowSheriffNameButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_19.Parent = ShowSheriffNameFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_19.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "click"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 20.000
+TextLabel_19.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextTransparency = 0.500
+
+ShowMurdererNameFrame.Name = "ShowMurdererNameFrame"
+ShowMurdererNameFrame.Parent = ScrollingFrame_2
+ShowMurdererNameFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+ShowMurdererNameFrame.BackgroundTransparency = 1.000
+ShowMurdererNameFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShowMurdererNameFrame.BorderSizePixel = 0
+ShowMurdererNameFrame.Position = UDim2.new(0.0109999999, 0, 0.657999992, 0)
+ShowMurdererNameFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_51.Parent = ShowMurdererNameFrame
+
+ShowMurdererNameButton.Name = "ShowMurdererNameButton"
+ShowMurdererNameButton.Parent = ShowMurdererNameFrame
+ShowMurdererNameButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShowMurdererNameButton.BackgroundTransparency = 1.000
+ShowMurdererNameButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShowMurdererNameButton.BorderSizePixel = 0
+ShowMurdererNameButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+ShowMurdererNameButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+ShowMurdererNameButton.Font = Enum.Font.SourceSansBold
+ShowMurdererNameButton.Text = "Show Murderer Name"
+ShowMurdererNameButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShowMurdererNameButton.TextSize = 25.000
+ShowMurdererNameButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_20.Parent = ShowMurdererNameFrame
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_20.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_20.Font = Enum.Font.SourceSans
+TextLabel_20.Text = "click"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 20.000
+TextLabel_20.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextTransparency = 0.500
+
+HighlightInnocentFrame.Name = "HighlightInnocentFrame"
+HighlightInnocentFrame.Parent = ScrollingFrame_2
+HighlightInnocentFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+HighlightInnocentFrame.BackgroundTransparency = 1.000
+HighlightInnocentFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HighlightInnocentFrame.BorderSizePixel = 0
+HighlightInnocentFrame.Position = UDim2.new(0.0109999999, 0, 0.398000002, 0)
+HighlightInnocentFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_52.Parent = HighlightInnocentFrame
+
+HighlightInnocentButton.Name = "HighlightInnocentButton"
+HighlightInnocentButton.Parent = HighlightInnocentFrame
+HighlightInnocentButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HighlightInnocentButton.BackgroundTransparency = 1.000
+HighlightInnocentButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HighlightInnocentButton.BorderSizePixel = 0
+HighlightInnocentButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+HighlightInnocentButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+HighlightInnocentButton.Font = Enum.Font.SourceSansBold
+HighlightInnocentButton.Text = "Highlight Innocent"
+HighlightInnocentButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HighlightInnocentButton.TextSize = 25.000
+HighlightInnocentButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_21.Parent = HighlightInnocentFrame
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_21.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_21.Font = Enum.Font.SourceSans
+TextLabel_21.Text = "click"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 20.000
+TextLabel_21.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextTransparency = 0.500
+
+HighlightSheriffFrame.Name = "HighlightSheriffFrame"
+HighlightSheriffFrame.Parent = ScrollingFrame_2
+HighlightSheriffFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+HighlightSheriffFrame.BackgroundTransparency = 1.000
+HighlightSheriffFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HighlightSheriffFrame.BorderSizePixel = 0
+HighlightSheriffFrame.Position = UDim2.new(0.0109999999, 0, 0.268000007, 0)
+HighlightSheriffFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_53.Parent = HighlightSheriffFrame
+
+HighlightSheriffButton.Name = "HighlightSheriffButton"
+HighlightSheriffButton.Parent = HighlightSheriffFrame
+HighlightSheriffButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HighlightSheriffButton.BackgroundTransparency = 1.000
+HighlightSheriffButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HighlightSheriffButton.BorderSizePixel = 0
+HighlightSheriffButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+HighlightSheriffButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+HighlightSheriffButton.Font = Enum.Font.SourceSansBold
+HighlightSheriffButton.Text = "Highlight Sheriff"
+HighlightSheriffButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HighlightSheriffButton.TextSize = 25.000
+HighlightSheriffButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_22.Parent = HighlightSheriffFrame
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_22.BorderSizePixel = 0
+TextLabel_22.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_22.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = "click"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 20.000
+TextLabel_22.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextTransparency = 0.500
+
+HighlightMurdererFrame.Name = "HighlightMurdererFrame"
+HighlightMurdererFrame.Parent = ScrollingFrame_2
+HighlightMurdererFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+HighlightMurdererFrame.BackgroundTransparency = 1.000
+HighlightMurdererFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HighlightMurdererFrame.BorderSizePixel = 0
+HighlightMurdererFrame.Position = UDim2.new(0.0109999999, 0, 0.148000002, 0)
+HighlightMurdererFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_54.Parent = HighlightMurdererFrame
+
+HighlightMurdererButton.Name = "HighlightMurdererButton"
+HighlightMurdererButton.Parent = HighlightMurdererFrame
+HighlightMurdererButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HighlightMurdererButton.BackgroundTransparency = 1.000
+HighlightMurdererButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HighlightMurdererButton.BorderSizePixel = 0
+HighlightMurdererButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+HighlightMurdererButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+HighlightMurdererButton.Font = Enum.Font.SourceSansBold
+HighlightMurdererButton.Text = "Highlight Murderer"
+HighlightMurdererButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HighlightMurdererButton.TextSize = 25.000
+HighlightMurdererButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_23.Parent = HighlightMurdererFrame
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_23.BorderSizePixel = 0
+TextLabel_23.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_23.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_23.Font = Enum.Font.SourceSans
+TextLabel_23.Text = "click"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 20.000
+TextLabel_23.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextTransparency = 0.500
+
+HighlightAllFrame.Name = "HighlightAllFrame"
+HighlightAllFrame.Parent = ScrollingFrame_2
+HighlightAllFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+HighlightAllFrame.BackgroundTransparency = 1.000
+HighlightAllFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HighlightAllFrame.BorderSizePixel = 0
+HighlightAllFrame.Position = UDim2.new(0.0109999999, 0, 0.0280000009, 0)
+HighlightAllFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_55.Parent = HighlightAllFrame
+
+HighlightAllButton.Name = "HighlightAllButton"
+HighlightAllButton.Parent = HighlightAllFrame
+HighlightAllButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HighlightAllButton.BackgroundTransparency = 1.000
+HighlightAllButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HighlightAllButton.BorderSizePixel = 0
+HighlightAllButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+HighlightAllButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+HighlightAllButton.Font = Enum.Font.SourceSansBold
+HighlightAllButton.Text = "Highlight All"
+HighlightAllButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HighlightAllButton.TextSize = 25.000
+HighlightAllButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_24.Parent = HighlightAllFrame
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_24.BorderSizePixel = 0
+TextLabel_24.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_24.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_24.Font = Enum.Font.SourceSans
+TextLabel_24.Text = "click"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 20.000
+TextLabel_24.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextTransparency = 0.500
+
+ShowAllNameFrame.Name = "ShowAllNameFrame"
+ShowAllNameFrame.Parent = ScrollingFrame_2
+ShowAllNameFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+ShowAllNameFrame.BackgroundTransparency = 1.000
+ShowAllNameFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShowAllNameFrame.BorderSizePixel = 0
+ShowAllNameFrame.Position = UDim2.new(0.0109999999, 0, 0.527999997, 0)
+ShowAllNameFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_56.Parent = ShowAllNameFrame
+
+ShowAllNameButton.Name = "ShowAllNameButton"
+ShowAllNameButton.Parent = ShowAllNameFrame
+ShowAllNameButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShowAllNameButton.BackgroundTransparency = 1.000
+ShowAllNameButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShowAllNameButton.BorderSizePixel = 0
+ShowAllNameButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+ShowAllNameButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+ShowAllNameButton.Font = Enum.Font.SourceSansBold
+ShowAllNameButton.Text = "Show Everyone Name"
+ShowAllNameButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShowAllNameButton.TextSize = 25.000
+ShowAllNameButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_25.Parent = ShowAllNameFrame
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_25.BorderSizePixel = 0
+TextLabel_25.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_25.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_25.Font = Enum.Font.SourceSans
+TextLabel_25.Text = "click"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 20.000
+TextLabel_25.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextTransparency = 0.500
+
+ShowInnocentNameFrame.Name = "ShowInnocentNameFrame"
+ShowInnocentNameFrame.Parent = ScrollingFrame_2
+ShowInnocentNameFrame.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+ShowInnocentNameFrame.BackgroundTransparency = 1.000
+ShowInnocentNameFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShowInnocentNameFrame.BorderSizePixel = 0
+ShowInnocentNameFrame.Position = UDim2.new(0.0109999999, 0, 0.898000002, 0)
+ShowInnocentNameFrame.Size = UDim2.new(0, 620, 0, 40)
+
+UICorner_57.Parent = ShowInnocentNameFrame
+
+ShowInnocentNameButton.Name = "ShowInnocentNameButton"
+ShowInnocentNameButton.Parent = ShowInnocentNameFrame
+ShowInnocentNameButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShowInnocentNameButton.BackgroundTransparency = 1.000
+ShowInnocentNameButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShowInnocentNameButton.BorderSizePixel = 0
+ShowInnocentNameButton.Position = UDim2.new(0.0177419353, 0, 0, 0)
+ShowInnocentNameButton.Size = UDim2.new(0.967741907, 0, 1, 0)
+ShowInnocentNameButton.Font = Enum.Font.SourceSansBold
+ShowInnocentNameButton.Text = "Show Innocent Name"
+ShowInnocentNameButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShowInnocentNameButton.TextSize = 25.000
+ShowInnocentNameButton.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_26.Parent = ShowInnocentNameFrame
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_26.BorderSizePixel = 0
+TextLabel_26.Position = UDim2.new(0.76935482, 0, 0, 0)
+TextLabel_26.Size = UDim2.new(0, 142, 0, 41)
+TextLabel_26.Font = Enum.Font.SourceSans
+TextLabel_26.Text = "click"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 20.000
+TextLabel_26.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextTransparency = 0.500
+
+Notifi.Name = "Notifi"
+Notifi.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Notifi.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+GunThings.Name = "GunThings"
+GunThings.Parent = Notifi
+GunThings.AnchorPoint = Vector2.new(0.5, 0.5)
+GunThings.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GunThings.BackgroundTransparency = 0.600
+GunThings.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GunThings.BorderSizePixel = 0
+GunThings.Position = UDim2.new(0.899999976, 0, 0.899999976, 0)
+GunThings.Size = UDim2.new(0, 293, 0, 158)
+GunThings.Visible = false
+
+WhatHappenToTheGun.Name = "WhatHappenToTheGun"
+WhatHappenToTheGun.Parent = GunThings
+WhatHappenToTheGun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhatHappenToTheGun.BackgroundTransparency = 0.980
+WhatHappenToTheGun.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WhatHappenToTheGun.BorderSizePixel = 0
+WhatHappenToTheGun.Position = UDim2.new(0, 0, 0.156076163, 0)
+WhatHappenToTheGun.Size = UDim2.new(0, 293, 0, 102)
+WhatHappenToTheGun.Font = Enum.Font.SourceSansBold
+WhatHappenToTheGun.Text = "The Sheriff is dead You can grab the gun"
+WhatHappenToTheGun.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhatHappenToTheGun.TextScaled = true
+WhatHappenToTheGun.TextSize = 25.000
+WhatHappenToTheGun.TextWrapped = true
+
+UICorner_58.Parent = GunThings
+
+Notifi_2.Name = "Notifi"
+Notifi_2.Parent = Notifi
+Notifi_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Notifi_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Notifi_2.BackgroundTransparency = 0.600
+Notifi_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Notifi_2.BorderSizePixel = 0
+Notifi_2.Position = UDim2.new(0.899999976, 0, 0.899999976, 0)
+Notifi_2.Size = UDim2.new(0, 293, 0, 158)
+
+TextLabel_27.Parent = Notifi_2
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_27.BorderSizePixel = 0
+TextLabel_27.Position = UDim2.new(0.0170648471, 0, 0.0379746817, 0)
+TextLabel_27.Size = UDim2.new(0, 284, 0, 31)
+TextLabel_27.Font = Enum.Font.SourceSansBold
+TextLabel_27.Text = "[Thanks for using Ruthless MM2 Script]"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextScaled = true
+TextLabel_27.TextSize = 25.000
+TextLabel_27.TextWrapped = true
+
+TextLabel2.Name = "TextLabel2"
+TextLabel2.Parent = Notifi_2
+TextLabel2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel2.BackgroundTransparency = 1.000
+TextLabel2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2.BorderSizePixel = 0
+TextLabel2.Position = UDim2.new(0.0170648471, 0, 0.107594937, 0)
+TextLabel2.Size = UDim2.new(0, 284, 0, 138)
+TextLabel2.Font = Enum.Font.SourceSansBold
+TextLabel2.Text = "Press LeftControl To Show/Hide Ui"
+TextLabel2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel2.TextScaled = true
+TextLabel2.TextSize = 25.000
+TextLabel2.TextWrapped = true
+
+UICorner_59.Parent = Notifi_2
+
+UIStroke_46.Parent = FovSliderFrame
+UIStroke_46.Parent = FovFrame
+UIStroke_46.Parent = FovValueFrame
+UIStroke_45.Parent = HighlightInnocentFrame
+UIStroke_44.Parent = HighlightSheriffFrame
+UIStroke_43.Parent = HighlightMurdererFrame
+UIStroke_42.Parent = HighlightAllFrame
+UIStroke_41.Parent = ShowInnocentNameFrame
+UIStroke_41.Parent = ShowSheriffNameFrame
+UIStroke_40.Parent = ShowMurdererNameFrame
+UIStroke_39.Parent = ShowAllNameFrame
+UIStroke_38.Parent = ESPFrame
+UIStroke_37.Parent = FovValueFrame
+UIStroke_36.Parent = GrabGun
+UIStroke_35.Parent = Notifi
+UIStroke_34.Parent = MilbaseFrame
+UIStroke_33.Parent = ResearchFactoryFrame
+UIStroke_32.Parent = FactoryFrame
+UIStroke_31.Parent = HotelFrame
+UIStroke_30.Parent = House2Frame
+UIStroke_29.Parent = LobbyFrame
+UIStroke_28.Parent = TeleportFrame
+UIStroke_25.Parent = InfiniteJumpToggle
+UIStroke_24.Parent = InfiniteJumpFrame
+UIStroke_21.Parent = NoClipToggle
+UIStroke_20.Parent = NoClipFrame
+UIStroke_19.Parent = JumpPowerValueFrame
+UIStroke_18.Parent = JumpPowerSliderFrame
+UIStroke_17.Parent = JumpPowerFrame
+UIStroke_16.Parent = WalkSpeedValueFrame
+UIStroke_15.Parent = WalkSpeedSliderFrame
+UIStroke_14.Parent = WalkSpeedFrame
+UIStroke_13.Parent = PlayerFrame
+UIStroke_12.Parent = Discord
+UIStroke_11.Parent = Info
+UIStroke_10.Parent = HomeFrame
+UIStroke_9.Parent = PremiumTab
+UIStroke_8.Parent = ESPTab
+UIStroke_7.Parent = TeleportTab
+UIStroke_6.Parent = UiName
+UIStroke_5.Parent = AutoFarmTab
+UIStroke_4.Parent = PlayerTab
+UIStroke_3.Parent = HomeTab
+UIStroke_2.Parent = TrollTab
+UIStroke_1.Parent = MainFrame
+
+
+
+local TweenService = game:GetService("TweenService")
+
+local function Start()
+	PlayerFrame.Visible = false
+	HomeFrame.Visible = true
+	TeleportFrame.Visible = false
+	TrollFrame.Visible = false
+
+	local tweenInfo = TweenInfo.new(
+		1, -- seconds
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	-- Assuming MainFrame has one UIStroke child (adjust if multiple)
+	local uiStroke = MainFrame:FindFirstChildWhichIsA("UIStroke")
+	if uiStroke then
+		uiStroke.Transparency = 1  -- start invisible
+		local strokeGoal = {Transparency = 0} -- fully visible
+		local strokeTween = TweenService:Create(uiStroke, tweenInfo, strokeGoal)
+		strokeTween:Play()
+	end
+
+	-- Tween Notifi position as before
+	local goal = {Position = UDim2.new(1.5, 0, 0.9, 0)}
+	local goal2 = {Position = UDim2.new(0.9, 0, 0.9, 0)}
+
+	wait(1)
+
+	local tween2 = TweenService:Create(Notifi, tweenInfo, goal2)
+	tween2:Play()
+
+	wait(5)
+
+	local tween = TweenService:Create(Notifi, tweenInfo, goal)
+	tween:Play()
+
+	tween.Completed:Connect(function()
+		Notifi.Visible = false
+	end)
+end
+
+
+
+local function TeleportToGun()
+	-- Tween target position
+	local goal = {}
+	local goal2 = {}
+	goal.Position = UDim2.new(1.5, 0, 0.9, 0)
+	goal2.Position = UDim2.new(0.9, 0, 0.9, 0)
+
+	-- Tween settings
+	local tweenInfo = TweenInfo.new(
+		1, -- Time in seconds
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	GunThings.Visible = true
+	WhatHappenToTheGun.Text = "Teleporting To The Gun..."
+
+	local tween2 = TweenService:Create(GunThings, tweenInfo, goal2)
+	tween2:Play()
+
+	-- Create and play tween
+	local tween = TweenService:Create(GunThings, tweenInfo, goal)
+	wait(5)
+	tween:Play()
+
+	-- Wait until tween finishes, then hide
+	tween.Completed:Connect(function()
+		GunThings.Visible = false
+	end)
+end
+
+local function NoGunFound()
+	-- Tween target position
+	local goal = {}
+	local goal2 = {}
+	goal.Position = UDim2.new(1.5, 0, 0.9, 0)
+	goal2.Position = UDim2.new(0.9, 0, 0.9, 0)
+
+	-- Tween settings
+	local tweenInfo = TweenInfo.new(
+		1, -- Time in seconds
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	GunThings.Visible = true
+	WhatHappenToTheGun.Text = "The Gun Did NOT Drop in the map or... it's not define in the script"
+
+	local tween2 = TweenService:Create(GunThings, tweenInfo, goal2)
+	tween2:Play()
+
+	-- Create and play tween
+	local tween = TweenService:Create(GunThings, tweenInfo, goal)
+	wait(5)
+	tween:Play()
+
+	-- Wait until tween finishes, then hide
+	tween.Completed:Connect(function()
+		GunThings.Visible = false
+	end)
+end
+
+
+
+local function GoingBackToOldPos()
+	-- Tween target position
+	local goal = {}
+	local goal2 = {}
+	goal.Position = UDim2.new(1.5, 0, 0.9, 0)
+	goal2.Position = UDim2.new(0.9, 0, 0.9, 0)
+
+	-- Tween settings
+	local tweenInfo = TweenInfo.new(
+		1, -- Time in seconds
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	GunThings.Visible = true
+	WhatHappenToTheGun.Text = "Going Back To Your Old Position"
+
+	local tween2 = TweenService:Create(GunThings, tweenInfo, goal2)
+	tween2:Play()
+
+	-- Create and play tween
+	local tween = TweenService:Create(GunThings, tweenInfo, goal)
+	wait(5)
+	tween:Play()
+
+	-- Wait until tween finishes, then hide
+	tween.Completed:Connect(function()
+		GunThings.Visible = false
+	end)
+end
+
+local UserInputService = game:GetService("UserInputService")
+
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+	if not gameProcessed then
+		if input.KeyCode == Enum.KeyCode.LeftControl then
+			MainScreenGui.Enabled = not MainScreenGui.Enabled
+		end
+	end
+end)
+
+local function WaitForTheMurdererToGetTheKnife()
+	-- Tween target position
+	local goal = {}
+	local goal2 = {}
+	goal.Position = UDim2.new(1.5, 0, 0.9, 0)
+	goal2.Position = UDim2.new(0.9, 0, 0.9, 0)
+
+	-- Tween settings
+	local tweenInfo = TweenInfo.new(
+		1, -- Time in seconds
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	GunThings.Visible = true
+	WhatHappenToTheGun.Text = "Wait For the murderer to get the knife"
+
+	local tween2 = TweenService:Create(GunThings, tweenInfo, goal2)
+	tween2:Play()
+
+	-- Create and play tween
+	local tween = TweenService:Create(GunThings, tweenInfo, goal)
+	wait(5)
+	tween:Play()
+
+	-- Wait until tween finishes, then hide
+	tween.Completed:Connect(function()
+		GunThings.Visible = false
+	end)
+end
+
+local function WaitForTheSheriffToGetTheGun()
+	-- Tween target position
+	local goal = {}
+	local goal2 = {}
+	goal.Position = UDim2.new(1.5, 0, 0.9, 0)
+	goal2.Position = UDim2.new(0.9, 0, 0.9, 0)
+
+	-- Tween settings
+	local tweenInfo = TweenInfo.new(
+		1, -- Time in seconds
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	GunThings.Visible = true
+	WhatHappenToTheGun.Text = "Wait For the Sheriff to get the Gun"
+
+	local tween2 = TweenService:Create(GunThings, tweenInfo, goal2)
+	tween2:Play()
+
+	-- Create and play tween
+	local tween = TweenService:Create(GunThings, tweenInfo, goal)
+	wait(5)
+	tween:Play()
+
+	-- Wait until tween finishes, then hide
+	tween.Completed:Connect(function()
+		GunThings.Visible = false
+	end)
+end
+
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+local character = player.Character or player.CharacterAdded:Wait()
+
+local mm2Maps = {
+	"Office2", "Office3", "Bank", "Bank2", "Hospital2", "Hospital3",
+	"ResearchFacility", "Factory", "MilBase", "Hotel", "Hotel2",
+	"PoliceStation", "Workplace", "Biolab", "House2", "House3",
+	"Mansion", "Mansion2", "Station", "LogCabin", "Farmhouse", "Workshop"
+}
+
+
+
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+	if not gameProcessed then
+		if input.KeyCode == Enum.KeyCode.G then
+			local mapFolder
+			for _, mapName in pairs(mm2Maps) do
+				local map = workspace:FindFirstChild(mapName)
+				if map then
+					mapFolder = map
+					break
+				end
+			end
+
+			if mapFolder then
+				local gunDrop = mapFolder:FindFirstChild("GunDrop", true)
+				if gunDrop and gunDrop:IsA("BasePart") then
+					TeleportToGun()
+
+					local originalCFrame = rootPart.CFrame
+
+					rootPart.CFrame = gunDrop.CFrame
+
+					wait(.1)
+
+					rootPart.CFrame = originalCFrame
+
+					GoingBackToOldPos()
+				else
+					NoGunFound()
+				end
+			else
+				NoGunFound()
+			end
+		end
+	end
+end)
+
+
+PlayerTextButton.MouseButton1Click:Connect(function()
+	PlayerFrame.Visible = true
+	HomeFrame.Visible = false
+	TeleportFrame.Visible = false
+	TrollFrame.Visible = false
+	PlayerTextButton.Font = Enum.Font.SourceSansBold
+	HomeTextButton.Font = Enum.Font.SourceSans
+	TrollTextButton.Font = Enum.Font.SourceSans
+	TeleportTextButton.Font = Enum.Font.SourceSans
+end)
+
+HomeTextButton.MouseButton1Click:Connect(function()
+	PlayerFrame.Visible = false
+	HomeFrame.Visible = true
+	TeleportFrame.Visible = false
+	TrollFrame.Visible = false
+	HomeTextButton.Font = Enum.Font.SourceSansBold
+	PlayerTextButton.Font = Enum.Font.SourceSans
+	TrollTextButton.Font = Enum.Font.SourceSans
+	TeleportTextButton.Font = Enum.Font.SourceSans
+end)
+
+TeleportTextButton.MouseButton1Click:Connect(function()
+	PlayerFrame.Visible = false
+	HomeFrame.Visible = false
+	TeleportFrame.Visible = true
+	TrollFrame.Visible = false
+	TeleportTextButton.Font = Enum.Font.SourceSansBold
+	HomeTextButton.Font = Enum.Font.SourceSans
+	PlayerTextButton.Font = Enum.Font.SourceSans
+	TrollTextButton.Font = Enum.Font.SourceSans
+end)
+
+TrollTextButton.MouseButton1Click:Connect(function()
+	PlayerFrame.Visible = false
+	HomeFrame.Visible = false
+	TeleportFrame.Visible = false
+	TrollFrame.Visible = true
+	TrollTextButton.Font = Enum.Font.SourceSansBold
+	TeleportTextButton.Font = Enum.Font.SourceSans
+	HomeTextButton.Font = Enum.Font.SourceSans
+	PlayerTextButton.Font = Enum.Font.SourceSans
+end)
+
+ResearchFactoryButton.MouseButton1Click:Connect(function()
+	rootPart.CFrame = CFrame.new(
+		-1018.47491, -93.2750244, 3.24997711, 
+		1, 0, 0, 
+		0, 1, 0, 
+		0, 0, 1
+	)
+end)
+
+LobbyButton.MouseButton1Click:Connect(function()
+	rootPart.CFrame = CFrame.new(
+		-142.449982, 137.024994, 19.5,
+		0, 0, 1, 
+		0, 1, 0,
+		-1, 0, 0
+	)
+end)
+
+House2Button.MouseButton1Click:Connect(function()
+	rootPart.CFrame = CFrame.new(
+		-2.52509403, -99.1744232, -1240.6344, 
+		0.999045968, -9.56716129e-09, -0.0436715335,
+		1.03457403e-08, 1, 1.76020603e-08,
+		0.0436715335, -1.80370812e-08, 0.999045968
+	)
+end)
+
+FactoryButton.MouseButton1Click:Connect(function()
+	rootPart.CFrame = CFrame.new(
+		-4846.69434, -98.7702942, 1285.61719,
+		0.568721831, 7.79245823e-09, 0.822529912,
+		6.74997764e-08, 1, -5.6145133e-08,
+		-0.822529912, 8.74515464e-08, 0.568721831
+	)
+end)
+
+ResearchFactoryButton.MouseButton1Click:Connect(function()
+	rootPart.CFrame = CFrame.new(
+		-1018.47491, -93.2750244, 3.24997711, 
+		1, 0, 0, 
+		0, 1, 0, 
+		0, 0, 1
+	)
+end)
+
+HotelButton.MouseButton1Click:Connect(function()
+	rootPart.CFrame = CFrame.new(
+		474.275146, -132.375061, 813.349976,
+		-1, 4.83310494e-08, -2.39363488e-13, 
+		4.83310494e-08, 1, -1.56745372e-08, 
+		2.38605902e-13, -1.56745372e-08, -1
+	)
+end)
+
+TeleportToSafePlaceButton.MouseButton1Click:Connect(function()
+	rootPart.CFrame = CFrame.new(
+		-30, 2, 18
+	)
+end)
+
+KillAllButton.MouseButton1Click:Connect(function()
+	local targetPosition = Vector3.new(-30, 9, 18)
+
+	for _, plr in pairs(game.Players:GetPlayers()) do
+		if plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
+			plr.Character.HumanoidRootPart.CFrame = CFrame.new(targetPosition)
+		end
+	end
+end)
+
+
+local function Message(_Title, _Text, Time)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = _Title,
+		Text = _Text,
+		Duration = Time
+	})
+end
+
+-- Wait for murderer to get knife with tween
+
+-- Fling function
+local function SkidFling(TargetPlayer)
+	local Character = Player.Character
+	local Humanoid = Character and Character:FindFirstChildOfClass("Humanoid")
+	local RootPart = Humanoid and Humanoid.RootPart
+	local TCharacter = TargetPlayer.Character
+	local THumanoid = TCharacter:FindFirstChildOfClass("Humanoid")
+	local TRootPart = THumanoid and THumanoid.RootPart
+	local THead = TCharacter:FindFirstChild("Head")
+	local Accessory = TCharacter:FindFirstChildOfClass("Accessory")
+	local Handle = Accessory and Accessory:FindFirstChild("Handle")
+
+	if Character and Humanoid and RootPart then
+		if RootPart.Velocity.Magnitude < 50 then
+			getgenv().OldPos = RootPart.CFrame
+		end
+
+		if THead then
+			workspace.CurrentCamera.CameraSubject = THead
+		elseif Handle then
+			workspace.CurrentCamera.CameraSubject = Handle
+		elseif THumanoid and TRootPart then
+			workspace.CurrentCamera.CameraSubject = THumanoid
+		end
+
+		local FPos = function(BasePart, Pos, Ang)
+			RootPart.CFrame = CFrame.new(BasePart.Position) * Pos * Ang
+			Character:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos * Ang)
+			RootPart.Velocity = Vector3.new(9e7, 9e7 * 10, 9e7)
+			RootPart.RotVelocity = Vector3.new(9e8, 9e8, 9e8)
+		end
+
+		local SFBasePart = function(BasePart)
+			local TimeToWait = 2
+			local Time = tick()
+			local Angle = 0
+			repeat
+				if RootPart and THumanoid then
+					Angle = Angle + 100
+					FPos(BasePart, CFrame.new(0, 1.5, 0), CFrame.Angles(math.rad(Angle), 0, 0))
+					task.wait()
+				else
+					break
+				end
+			until BasePart.Velocity.Magnitude > 500
+				or BasePart.Parent ~= TargetPlayer.Character
+				or TargetPlayer.Parent ~= Players
+				or not TargetPlayer.Character == TCharacter
+				or THumanoid.Sit
+				or Humanoid.Health <= 0
+				or tick() > Time + TimeToWait
+		end
+
+		workspace.FallenPartsDestroyHeight = 0 / 0
+		local BV = Instance.new("BodyVelocity")
+		BV.Name = "EpixVel"
+		BV.Parent = RootPart
+		BV.Velocity = Vector3.new(9e8, 9e8, 9e8)
+		BV.MaxForce = Vector3.new(1 / 0, 1 / 0, 1 / 0)
+		Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, false)
+
+		if TRootPart and THead then
+			if (TRootPart.CFrame.p - THead.CFrame.p).Magnitude > 5 then
+				SFBasePart(THead)
+			else
+				SFBasePart(TRootPart)
+			end
+		elseif TRootPart then
+			SFBasePart(TRootPart)
+		elseif THead then
+			SFBasePart(THead)
+		elseif Handle then
+			SFBasePart(Handle)
+		else
+			print("w")
+		end
+
+		BV:Destroy()
+		Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, true)
+		workspace.CurrentCamera.CameraSubject = Humanoid
+
+		-- Return to original position
+		RootPart.CFrame = getgenv().OldPos * CFrame.new(0, .5, 0)
+		Character:SetPrimaryPartCFrame(getgenv().OldPos * CFrame.new(0, .5, 0))
+		Humanoid:ChangeState("GettingUp")
+		for _, x in pairs(Character:GetChildren()) do
+			if x:IsA("BasePart") then
+				x.Velocity, x.RotVelocity = Vector3.new(), Vector3.new()
+			end
+		end
+		workspace.FallenPartsDestroyHeight = getgenv().FPDH
+	else
+		print("w")
+	end
+end
+
+-- Main execution
+FlingMurderButton.MouseButton1Click:Connect(function()
+	if not getgenv().Welcome then
+		print("w")
+	end
+	getgenv().Welcome = true
+
+	WaitForTheMurdererToGetTheKnife() -- wait for murderer tween
+
+	-- Fling Murderer
+	for _, plr in pairs(Players:GetPlayers()) do
+		if plr ~= Player and plr.Character then
+			if plr.Backpack:FindFirstChild("Knife") or plr.Character:FindFirstChild("Knife") then
+				SkidFling(plr)
+			end
+		end
+	end
+end)
+
+FlingSheriffButton.MouseButton1Click:Connect(function()
+	getgenv().Welcome = true
+
+	WaitForTheSheriffToGetTheGun() -- wait for murderer tween
+
+	-- Fling Murderer
+	for _, plr in pairs(Players:GetPlayers()) do
+		if plr ~= Player and plr.Character then
+			if plr.Backpack:FindFirstChild("Gun") or plr.Character:FindFirstChild("Gun") then
+				SkidFling(plr)
+			end
+		end
+	end
+end)
+
+GrabGunButton.MouseButton1Click:Connect(function()
+	local mapFolder
+	for _, mapName in pairs(mm2Maps) do
+		local map = workspace:FindFirstChild(mapName)
+		if map then
+			mapFolder = map
+			break
+		end
+	end
+
+	if mapFolder then
+		local gunDrop = mapFolder:FindFirstChild("GunDrop", true)
+		if gunDrop and gunDrop:IsA("BasePart") then
+			TeleportToGun()
+
+			local originalCFrame = rootPart.CFrame
+
+			rootPart.CFrame = gunDrop.CFrame
+
+			wait(.1)
+
+			rootPart.CFrame = originalCFrame
+
+			GoingBackToOldPos()
+		else
+			NoGunFound()
+		end
+	else
+		NoGunFound()
+	end
+end)
+
+
+
+local maxWalkSpeed = 200
+local maxJumpPower = 500
+
+-- Starting values (you can set initial values here)
+local currentWalkSpeed = 16
+local currentJumpPower = 50
+
+-- Update UI text initially
+WalkSpeedValueText.Text = tostring(currentWalkSpeed)
+JumpPowerValueText.Text = tostring(currentJumpPower)
+
+-- Sizes for frames when at max value
+local walkSpeedFullWidth = 293
+local walkSpeedHeight = 28
+
+local jumpPowerFullWidth = 293
+local jumpPowerHeight = 28
+
+-- Apply values to player
+local function applyWalkSpeed(speed)
+	local player = game.Players.LocalPlayer
+	if player.Character and player.Character:FindFirstChild("Humanoid") then
+		player.Character.Humanoid.WalkSpeed = speed
+	end
+end
+
+local function applyJumpPower(power)
+	local player = game.Players.LocalPlayer
+	if player.Character and player.Character:FindFirstChild("Humanoid") then
+		player.Character.Humanoid.JumpPower = power
+	end
+end
+
+-- Functions to update the size of the bars based on values
+local function updateWalkSpeedFrame(walkSpeed)
+	local scale = math.clamp(walkSpeed / maxWalkSpeed, 0, 1)
+	WalkSpeedValueFrame.Size = UDim2.new(0, walkSpeedFullWidth * scale, 0, walkSpeedHeight)
+end
+
+local function updateJumpPowerFrame(jumpPower)
+	local scale = math.clamp(jumpPower / maxJumpPower, 0, 1)
+	JumpPowerValueFrame.Size = UDim2.new(0, jumpPowerFullWidth * scale, 0, jumpPowerHeight)
+end
+
+-- Initialize the frames with starting values
+updateWalkSpeedFrame(currentWalkSpeed)
+updateJumpPowerFrame(currentJumpPower)
+applyWalkSpeed(currentWalkSpeed)
+applyJumpPower(currentJumpPower)
+
+-- WalkSpeed Slider Input
+WalkSpeedSliderFrame.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		local connection
+		connection = input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				connection:Disconnect()
+			end
+		end)
+
+		local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+		local xScale = math.clamp((mouse.X - WalkSpeedSliderFrame.AbsolutePosition.X) / WalkSpeedSliderFrame.AbsoluteSize.X, 0, 1)
+		currentWalkSpeed = math.floor(xScale * maxWalkSpeed)
+
+		WalkSpeedValueText.Text = tostring(currentWalkSpeed)
+		updateWalkSpeedFrame(currentWalkSpeed)
+		applyWalkSpeed(currentWalkSpeed)
+	end
+end)
+
+WalkSpeedSliderFrame.MouseMoved:Connect(function(x, y)
+	if not game:GetService("UserInputService"):IsMouseButtonPressed(Enum.UserInputType.MouseButton1) then return end
+
+	local xScale = math.clamp((x - WalkSpeedSliderFrame.AbsolutePosition.X) / WalkSpeedSliderFrame.AbsoluteSize.X, 0, 1)
+	currentWalkSpeed = math.floor(xScale * maxWalkSpeed)
+
+	WalkSpeedValueText.Text = tostring(currentWalkSpeed)
+	updateWalkSpeedFrame(currentWalkSpeed)
+	applyWalkSpeed(currentWalkSpeed)
+end)
+
+-- JumpPower Slider Input
+JumpPowerSliderFrame.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		local connection
+		connection = input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				connection:Disconnect()
+			end
+		end)
+
+		local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+		local xScale = math.clamp((mouse.X - JumpPowerSliderFrame.AbsolutePosition.X) / JumpPowerSliderFrame.AbsoluteSize.X, 0, 1)
+		currentJumpPower = math.floor(xScale * maxJumpPower)
+
+		JumpPowerValueText.Text = tostring(currentJumpPower)
+		updateJumpPowerFrame(currentJumpPower)
+		applyJumpPower(currentJumpPower)
+	end
+end)
+
+JumpPowerSliderFrame.MouseMoved:Connect(function(x, y)
+	if not game:GetService("UserInputService"):IsMouseButtonPressed(Enum.UserInputType.MouseButton1) then return end
+
+	local xScale = math.clamp((x - JumpPowerSliderFrame.AbsolutePosition.X) / JumpPowerSliderFrame.AbsoluteSize.X, 0, 1)
+	currentJumpPower = math.floor(xScale * maxJumpPower)
+
+	JumpPowerValueText.Text = tostring(currentJumpPower)
+	updateJumpPowerFrame(currentJumpPower)
+	applyJumpPower(currentJumpPower)
+end)
+
+-- Update character on respawn
+game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
+	character:WaitForChild("Humanoid")
+	applyWalkSpeed(currentWalkSpeed)
+	applyJumpPower(currentJumpPower)
+	updateWalkSpeedFrame(currentWalkSpeed)
+	updateJumpPowerFrame(currentJumpPower)
+end)
+
+local noclipActive = false
+local noclipConnection = nil
+
+NoClipButton.MouseButton1Down:Connect(function()
+	local player = game.Players.LocalPlayer
+	local character = player.Character
+	if not character then return end
+
+	local function tweenFalseToggle(targetPos, color)
+		if NoClipFalseToggle then
+			local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+			local goal = {
+				Position = UDim2.new(targetPos[1], 0, targetPos[2], 0),
+				BackgroundColor3 = Color3.fromRGB(color[1], color[2], color[3])
+			}
+			local tween = TweenService:Create(NoClipFalseToggle, tweenInfo, goal)
+			tween:Play()
+		end
+	end
+
+	local function noclip()
+		noclipActive = true
+		noclipConnection = game:GetService("RunService").Stepped:Connect(function()
+			if character then
+				for _, part in pairs(character:GetDescendants()) do
+					if part:IsA("BasePart") and part.CanCollide then
+						part.CanCollide = false
+					end
+				end
+			end
+		end)
+
+		-- Noclip is ON: Green and position 0.5
+		tweenFalseToggle({0.5, 0.143}, {12, 118, 0})
+	end
+
+	local function clip()
+		noclipActive = false
+		if noclipConnection then
+			noclipConnection:Disconnect()
+			noclipConnection = nil
+		end
+		if character then
+			for _, part in pairs(character:GetDescendants()) do
+				if part:IsA("BasePart") then
+					part.CanCollide = true
+				end
+			end
+		end
+
+		-- Noclip is OFF: Red and position 0.054
+		tweenFalseToggle({0.054, 0.143}, {118, 0, 0})
+	end
+
+	-- Toggle noclip state
+	if noclipActive then
+		clip()
+	else
+		noclip()
+	end
+end)
+
+local InfiniteJumpEnabled = false
+local JumpConnection = nil
+
+-- Tween function for InfiniteJumpButton
+local function tweenInfiniteJumpFalseToggle(targetPos, color)
+	if InfiniteJumpFalseToggle then
+		local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+		local goal = {
+			Position = UDim2.new(targetPos[1], 0, targetPos[2], 0),
+			BackgroundColor3 = Color3.fromRGB(color[1], color[2], color[3])
+		}
+		local tween = TweenService:Create(InfiniteJumpFalseToggle, tweenInfo, goal)
+		tween:Play()
+	end
+end
+
+-- Enable infinite jump
+local function enableInfiniteJump()
+	InfiniteJumpEnabled = true
+	JumpConnection = UserInputService.JumpRequest:Connect(function()
+		local humanoid = Players.LocalPlayer.Character and Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+		end
+	end)
+	tweenInfiniteJumpFalseToggle({0.5, 0.143}, {12, 118, 0}) -- Green and position 0.5
+end
+
+local function disableInfiniteJump()
+	InfiniteJumpEnabled = false
+	if JumpConnection then
+		JumpConnection:Disconnect()
+		JumpConnection = nil
+	end
+	tweenInfiniteJumpFalseToggle({0.054, 0.143}, {118, 0, 0})
+end
+
+-- Toggle infinite jump on InfiniteJumpButton click
+InfiniteJumpButton.MouseButton1Down:Connect(function()
+	if InfiniteJumpEnabled then
+		disableInfiniteJump()
+	else
+		enableInfiniteJump()
+	end
+end)
+
+-- Initialize state (disabled)
+disableInfiniteJump()
+
+
+
+
+Start()
