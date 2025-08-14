@@ -419,6 +419,7 @@ UIStroke_100.Thickness = 2
 UIStroke_100.Color = Color3.fromRGB(0, 170, 255)
 
 
+
 local MainScreenGui = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -511,7 +512,7 @@ local KillAllFrame = Instance.new("Frame")
 local UICorner_32 = Instance.new("UICorner")
 local KillAllButton = Instance.new("TextButton")
 local TextLabel_3 = Instance.new("TextLabel")
-local TextLabel_455 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
 local TeleportFrame = Instance.new("Frame")
 local UICorner_33 = Instance.new("UICorner")
 local ScrollingFrame = Instance.new("ScrollingFrame")
@@ -522,7 +523,6 @@ local TextLabel_5 = Instance.new("TextLabel")
 local MilbaseFrame = Instance.new("Frame")
 local UICorner_35 = Instance.new("UICorner")
 local MilbaseButton = Instance.new("TextButton")
-local KillAllButton = Instance.new("TextButton")
 local TextLabel_6 = Instance.new("TextLabel")
 local LobbyFrame = Instance.new("Frame")
 local UICorner_36 = Instance.new("UICorner")
@@ -609,25 +609,19 @@ local ShowInnocentNameFrame = Instance.new("Frame")
 local UICorner_57 = Instance.new("UICorner")
 local ShowInnocentNameButton = Instance.new("TextButton")
 local TextLabel_26 = Instance.new("TextLabel")
-local Notifi = Instance.new("ScreenGui")
 local GunThings = Instance.new("Frame")
 local WhatHappenToTheGun = Instance.new("TextLabel")
 local UICorner_58 = Instance.new("UICorner")
-local Notifi_2 = Instance.new("Frame")
+local Notifi = Instance.new("Frame")
 local TextLabel_27 = Instance.new("TextLabel")
 local TextLabel2 = Instance.new("TextLabel")
 local UICorner_59 = Instance.new("UICorner")
-
-local SafePart = Instance.new("Part")
-SafePart.Anchored = true
-SafePart.Size = Vector3.new(12, 1, 12)
-SafePart.Position = Vector3.new(-30, 11, 18)
-SafePart.Transparency = 0.6
 
 --Properties:
 
 MainScreenGui.Name = "MainScreenGui"
 MainScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MainScreenGui.Enabled = false
 MainScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 MainScreenGui.ResetOnSpawn = false
 
@@ -880,7 +874,7 @@ PlayerProfile.BorderColor3 = Color3.fromRGB(0, 0, 0)
 PlayerProfile.BorderSizePixel = 0
 PlayerProfile.Position = UDim2.new(0, 30, 0, 25)
 PlayerProfile.Size = UDim2.new(0, 100, 0, 100)
-PlayerProfile.Image = content
+PlayerProfile.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
 TextLabel.Parent = Info
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1325,19 +1319,19 @@ TextLabel_3.TextSize = 20.000
 TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextTransparency = 0.500
 
-TextLabel_455.Parent = KillAllFrame
-TextLabel_455.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_455.BackgroundTransparency = 1.000
-TextLabel_455.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_455.BorderSizePixel = 0
-TextLabel_455.Position = UDim2.new(0.134719357, 0, 0, 0)
-TextLabel_455.Size = UDim2.new(0, 81, 0, 41)
-TextLabel_455.Font = Enum.Font.SourceSans
-TextLabel_455.Text = "Murderer  Only"
-TextLabel_455.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_455.TextSize = 20.000
-TextLabel_455.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_455.TextTransparency = 0.500
+TextLabel_4.Parent = KillAllFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.134719357, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 81, 0, 41)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Murderer  Only"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextTransparency = 0.500
 
 TeleportFrame.Name = "TeleportFrame"
 TeleportFrame.Parent = MainFrame
@@ -2252,12 +2246,8 @@ TextLabel_26.TextSize = 20.000
 TextLabel_26.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_26.TextTransparency = 0.500
 
-Notifi.Name = "Notifi"
-Notifi.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Notifi.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
 GunThings.Name = "GunThings"
-GunThings.Parent = Notifi
+GunThings.Parent = MainScreenGui
 GunThings.AnchorPoint = Vector2.new(0.5, 0.5)
 GunThings.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 GunThings.BackgroundTransparency = 0.600
@@ -2284,17 +2274,17 @@ WhatHappenToTheGun.TextWrapped = true
 
 UICorner_58.Parent = GunThings
 
-Notifi_2.Name = "Notifi"
-Notifi_2.Parent = Notifi
-Notifi_2.AnchorPoint = Vector2.new(0.5, 0.5)
-Notifi_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Notifi_2.BackgroundTransparency = 0.600
-Notifi_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Notifi_2.BorderSizePixel = 0
-Notifi_2.Position = UDim2.new(0.899999976, 0, 0.899999976, 0)
-Notifi_2.Size = UDim2.new(0, 293, 0, 158)
+Notifi.Name = "Notifi"
+Notifi.Parent = MainScreenGui
+Notifi.AnchorPoint = Vector2.new(0.5, 0.5)
+Notifi.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Notifi.BackgroundTransparency = 0.600
+Notifi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Notifi.BorderSizePixel = 0
+Notifi.Position = UDim2.new(0.899999976, 0, 0.899999976, 0)
+Notifi.Size = UDim2.new(0, 293, 0, 158)
 
-TextLabel_27.Parent = Notifi_2
+TextLabel_27.Parent = Notifi
 TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_27.BackgroundTransparency = 1.000
 TextLabel_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -2309,7 +2299,7 @@ TextLabel_27.TextSize = 25.000
 TextLabel_27.TextWrapped = true
 
 TextLabel2.Name = "TextLabel2"
-TextLabel2.Parent = Notifi_2
+TextLabel2.Parent = Notifi
 TextLabel2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel2.BackgroundTransparency = 1.000
 TextLabel2.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -2323,8 +2313,7 @@ TextLabel2.TextScaled = true
 TextLabel2.TextSize = 25.000
 TextLabel2.TextWrapped = true
 
-UICorner_59.Parent = Notifi_2
-
+UICorner_59.Parent = Notifi
 UIStroke_48.Parent = FovSliderFrame
 UIStroke_47.Parent = FovFrame
 UIStroke_46.Parent = FovValueFrame
