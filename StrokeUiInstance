@@ -3,13 +3,7 @@ local player = Players.LocalPlayer
 local thumbType = Enum.ThumbnailType.HeadShot
 local thumbSize = Enum.ThumbnailSize.Size100x100
 local content, isReady = Players:GetUserThumbnailAsync(player.UserId, thumbType, thumbSize)
-
-
-
-
-
-
-
+print("Starting Now...")
 
 
 local UIStroke_1 = Instance.new("UIStroke")
