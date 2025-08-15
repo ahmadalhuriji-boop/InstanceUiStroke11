@@ -35,6 +35,69 @@ end
 
 print("Executor Detected: " .. executor)
 
+-- Fly Script
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+-- Configurable Variables
+local flySpeed = 50 -- Speed at which the player flies
+local flying = false
+
+-- Create body movers
+local bodyVelocity = Instance.new("BodyVelocity")
+bodyVelocity.Velocity = Vector3.new(0, 0, 0)
+bodyVelocity.MaxForce = Vector3.new(100000, 100000, 100000)
+
+local bodyGyro = Instance.new("BodyGyro")
+bodyGyro.CFrame = character.HumanoidRootPart.CFrame
+bodyGyro.MaxTorque = Vector3.new(100000, 100000, 100000)
+local UIS = game:GetService("UserInputService")
+
+-- Function to start flying
+local function startFlying()
+	flying = true
+	bodyVelocity.Parent = character.HumanoidRootPart
+	bodyGyro.Parent = character.HumanoidRootPart
+	humanoid.PlatformStand = true
+end
+
+-- Function to stop flying
+local function stopFlying()
+	flying = false
+	bodyVelocity.Parent = nil
+	bodyGyro.Parent = nil
+	humanoid.PlatformStand = false
+end
+
+-- Fly logic
+game:GetService("RunService").RenderStepped:Connect(function(deltaTime)
+	if flying then
+		local moveDirection = Vector3.new(0, 0, 0)
+		if UIS:IsKeyDown(Enum.KeyCode.W) then
+			moveDirection = moveDirection + (workspace.CurrentCamera.CFrame.LookVector)
+		end
+		if UIS:IsKeyDown(Enum.KeyCode.S) then
+			moveDirection = moveDirection - (workspace.CurrentCamera.CFrame.LookVector)
+		end
+		if UIS:IsKeyDown(Enum.KeyCode.A) then
+			moveDirection = moveDirection - (workspace.CurrentCamera.CFrame.RightVector)
+		end
+		if UIS:IsKeyDown(Enum.KeyCode.D) then
+			moveDirection = moveDirection + (workspace.CurrentCamera.CFrame.RightVector)
+		end
+		if UIS:IsKeyDown(Enum.KeyCode.Space) then
+			moveDirection = moveDirection + Vector3.new(0, 1, 0)
+		end
+		if UIS:IsKeyDown(Enum.KeyCode.LeftShift) then
+			moveDirection = moveDirection - Vector3.new(0, 1, 0)
+		end
+
+		bodyVelocity.Velocity = moveDirection * flySpeed
+		bodyGyro.CFrame = workspace.CurrentCamera.CFrame
+	end
+end)
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
@@ -3020,101 +3083,85 @@ MainScreenGui.ESPTextButton.MouseButton1Click:Connect(function()
 	MainScreenGui.ESPFrame.Visible = true
 end)
 
-MainScreenGui.ResearchFactoryButton.MouseButton1Click:Connect(
-	function()
-		rootPart.CFrame = CFrame.new(-1018.47491, -93.2750244, 3.24997711, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-	end
-)
+local player = game.Players.LocalPlayer
 
-MainScreenGui.LobbyButton.MouseButton1Click:Connect(
-	function()
+-- Function to safely get the player's HumanoidRootPart
+local function getRootPart()
+	local character = player.Character or player.CharacterAdded:Wait()
+	return character:FindFirstChild("HumanoidRootPart")
+end
+
+MainScreenGui.ResearchFactoryButton.MouseButton1Click:Connect(function()
+	local rootPart = getRootPart()
+	if rootPart then
+		rootPart.CFrame = CFrame.new(-1018.47491, -93.2750244, 3.24997711)
+	end
+end)
+
+MainScreenGui.LobbyButton.MouseButton1Click:Connect(function()
+	local rootPart = getRootPart()
+	if rootPart then
 		rootPart.CFrame = CFrame.new(-142.449982, 137.024994, 19.5, 0, 0, 1, 0, 1, 0, -1, 0, 0)
 	end
-)
+end)
 
-MainScreenGui.House2Button.MouseButton1Click:Connect(
-	function()
-		rootPart.CFrame =
-			CFrame.new(
-				-2.52509403,
-				-99.1744232,
-				-1240.6344,
-				0.999045968,
-				-9.56716129e-09,
-				-0.0436715335,
-				1.03457403e-08,
-				1,
-				1.76020603e-08,
-				0.0436715335,
-				-1.80370812e-08,
-				0.999045968
-			)
+MainScreenGui.House2Button.MouseButton1Click:Connect(function()
+	local rootPart = getRootPart()
+	if rootPart then
+		rootPart.CFrame = CFrame.new(
+			-2.52509403, -99.1744232, -1240.6344,
+			0.999045968, -9.56716129e-09, -0.0436715335,
+			1.03457403e-08, 1, 1.76020603e-08,
+			0.0436715335, -1.80370812e-08, 0.999045968
+		)
 	end
-)
+end)
 
-MainScreenGui.FactoryButton.MouseButton1Click:Connect(
-	function()
-		rootPart.CFrame =
-			CFrame.new(
-				-4846.69434,
-				-98.7702942,
-				1285.61719,
-				0.568721831,
-				7.79245823e-09,
-				0.822529912,
-				6.74997764e-08,
-				1,
-				-5.6145133e-08,
-				-0.822529912,
-				8.74515464e-08,
-				0.568721831
-			)
+MainScreenGui.FactoryButton.MouseButton1Click:Connect(function()
+	local rootPart = getRootPart()
+	if rootPart then
+		rootPart.CFrame = CFrame.new(
+			-4846.69434, -98.7702942, 1285.61719,
+			0.568721831, 7.79245823e-09, 0.822529912,
+			6.74997764e-08, 1, -5.6145133e-08,
+			-0.822529912, 8.74515464e-08, 0.568721831
+		)
 	end
-)
+end)
 
-MainScreenGui.ResearchFactoryButton.MouseButton1Click:Connect(
-	function()
-		rootPart.CFrame = CFrame.new(-1018.47491, -93.2750244, 3.24997711, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+MainScreenGui.HotelButton.MouseButton1Click:Connect(function()
+	local rootPart = getRootPart()
+	if rootPart then
+		rootPart.CFrame = CFrame.new(
+			474.275146, -132.375061, 813.349976,
+			-1, 4.83310494e-08, -2.39363488e-13,
+			4.83310494e-08, 1, -1.56745372e-08,
+			2.38605902e-13, -1.56745372e-08, -1
+		)
 	end
-)
+end)
 
-MainScreenGui.HotelButton.MouseButton1Click:Connect(
-	function()
-		rootPart.CFrame =
-			CFrame.new(
-				474.275146,
-				-132.375061,
-				813.349976,
-				-1,
-				4.83310494e-08,
-				-2.39363488e-13,
-				4.83310494e-08,
-				1,
-				-1.56745372e-08,
-				2.38605902e-13,
-				-1.56745372e-08,
-				-1
-			)
-	end
-)
-
-MainScreenGui.TeleportToSafePlaceButton.MouseButton1Click:Connect(
-	function()
+MainScreenGui.TeleportToSafePlaceButton.MouseButton1Click:Connect(function()
+	local rootPart = getRootPart()
+	if rootPart then
 		rootPart.CFrame = CFrame.new(-30, -45, 18)
 	end
-)
+end)
 
-MainScreenGui.KillAllButton.MouseButton1Click:Connect(
-	function()
-		local targetPosition = Vector3.new(-30, -45, 18)
-
-		for _, plr in pairs(game.Players:GetPlayers()) do
-			if plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
-				plr.Character.HumanoidRootPart.CFrame = CFrame.new(targetPosition)
-			end
-		end
+MainScreenGui.MilbaseButton.MouseButton1Click:Connect(function()
+	local rootPart = getRootPart()
+	if rootPart then
+		rootPart.CFrame = CFrame.new(-4675.3877, -118, 0)
 	end
-)
+end)
+MainScreenGui.KillAllButton.MouseButton1Click:Connect(function() 
+	local targetPosition = Vector3.new(-30, -45, 18)
+	for _, plr in pairs(game.Players:GetPlayers()) do
+		if plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
+			plr.Character.HumanoidRootPart.CFrame = CFrame.new(targetPosition)
+		end 
+	end 
+end)
 
 
 
@@ -3485,7 +3532,7 @@ MainScreenGui.GrabGunButton.MouseButton1Click:Connect(function()
 
 			rootPart.CFrame = gunDrop.CFrame
 
-			wait(1)
+			wait(0.05)
 
 			rootPart.CFrame = originalCFrame
 
@@ -3932,6 +3979,24 @@ UserInputService.InputChanged:Connect(function(input)
 	if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
 		update(input)
 	end
+end)
+
+MainScreenGui.FlyButton.MouseButton1Click:Connect(function()
+	if flying then
+		stopFlying()
+	else
+		startFlying()
+	end
+end)
+
+UIS.InputBegan:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.E then
+        if flying then
+            stopFlying()
+        else
+            startFlying()
+        end
+    end
 end)
 
 disableInfiniteJump()
