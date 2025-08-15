@@ -2950,7 +2950,6 @@ UserInputService.InputBegan:Connect(
 				if mapFolder then
 					local gunDrop = mapFolder:FindFirstChild("GunDrop", true)
 					if gunDrop and gunDrop:IsA("BasePart") then
-						TeleportToGun()
 
 						local originalCFrame = rootPart.CFrame
 
@@ -3482,8 +3481,6 @@ MainScreenGui.GrabGunButton.MouseButton1Click:Connect(function()
 	if mapFolder then
 		local gunDrop = mapFolder:FindFirstChild("GunDrop", true)
 		if gunDrop and gunDrop:IsA("BasePart") then
-			TeleportToGun()
-
 			local originalCFrame = rootPart.CFrame
 
 			rootPart.CFrame = gunDrop.CFrame
